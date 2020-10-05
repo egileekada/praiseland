@@ -1,0 +1,23 @@
+.toggle-button {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-sizing: border-box;
+    left: 20px;
+    top: 10px;
+    right: 20px;
+  }
+  
+  .toggle-button:focus {
+    outline: none;
+  }
+  
+  .toggle-button__line {
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    background: white;
+  }
