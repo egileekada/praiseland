@@ -51,41 +51,4 @@ const Home = () =>{
 }
   
   export default Home;
-    
-// function home(){
-
-//     const [showScroll, setShowScroll] = useState(false)
-  
-//     const checkScrollTop = () => {
-//       if (!showScroll && window.pageYOffset > 400){
-//         setShowScroll(true)
-//       } else if (showScroll && window.pageYOffset <= 400){
-//         setShowScroll(false)
-//       }
-//     };
-  
-//     const scrollTop = () =>{
-//       window.scrollTo({top: 0, behavior: 'smooth'});
-//     };
-  
-//     window.addEventListener('scroll', checkScrollTop)
-
-//         return(
-//             <div>
-//                 <header>
-//                     <Navigate/>
-
-//                     <Carousel/>
-//                 </header>
-//                 <div >
-//                 <button onClick={() => scrollTop} className="scrollTop">Top</button>
-//                     <Main/>
-//                 </div>        
-//                 <Bottom_Component />
-
-//             </div>
-//         )
-// }
- 
-// export default home;
 
