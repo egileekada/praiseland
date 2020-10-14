@@ -38,7 +38,7 @@
 
 }
 .sidebar_header{
-  height: 100px;
+  height: 70px;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -61,11 +61,11 @@
   float: left;
   height: 25px;
   width: 25px;
+  margin-left: 15px;
   /* color: black; */
   margin-right: 25px;
 }
 .backicon{
-  float: right;
   height: 30px;
   width: 30px;
   position: absolute;
