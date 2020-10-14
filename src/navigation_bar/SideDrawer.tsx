@@ -20,7 +20,7 @@ const SideDrawer = (props: any) => {
       drawerClasses = 'side-drawer open'
     }
   return (
-    <nav className={drawerClasses}  >
+    <nav className={drawerClasses} style={{overflow:'scroll'}} >
 
       <div className='sidebar_header' >
           <IoMdArrowRoundBack onClick={props.click} className='backicon' />
