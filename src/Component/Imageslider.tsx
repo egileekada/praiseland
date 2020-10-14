@@ -36,7 +36,7 @@ export default class imageslider extends React.Component<any, any, any> {
         }
     ];
     notActive = "h-2 w-2 rounded bg-gray-100 opacity-50 mr-2 rounded-lg cursor-pointer";
-    active = "h-3 w-3 rounded bg-green-400 rounded-lg mr-2  cursor-pointer";
+    active = "h-3 w-3 rounded bg-white rounded-lg mr-2  cursor-pointer";
 
     componentDidMount() {
      this.change();
@@ -87,8 +87,8 @@ export default class imageslider extends React.Component<any, any, any> {
                         <Container fluid >
                             <Row xs={12} md={12} style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                             <Col  xs={12} md={12} lg={12} id='slide' >
-                                <h1 style={{backgroundColor:'#0700008a'}} className="font-bold font-serif text-white items-center text-lg lg:text-4xl xl:text-4xl "  >{this.arr[this.state.COUNT].header}</h1>
-                                <p style={{backgroundColor:'#0700008a'}} className="text-white font-mont-medium text-xs">{this.arr[this.state.COUNT].body}</p>      
+                                <h1 style={{textShadow:'3px 3px #0700008a'}} className="font-bold font-body text-white items-center text-lg lg:text-4xl xl:text-4xl "  >{this.arr[this.state.COUNT].header}</h1>
+                                <p style={{textShadow:'3px 3px #0700008a'}} className="text-white font-mont-medium text-xs">{this.arr[this.state.COUNT].body}</p>      
                             </Col>
                             <Col xs={7} md={7} lg={7} id='indicator' >
                                 <div className="flex carousel-indicators " style={{ display:'flex', justifyContent:'center', alignItems:'center' }}> 

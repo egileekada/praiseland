@@ -3,12 +3,7 @@ module.exports = {
     theme: {
         extend: {
           fontFamily: {
-            'poppinsbold': 'poppinsbold',
-            'poppins': 'poppins',
-            'lato-light': 'Latol',
-            'sans': ['Lator'],
-            'poppinsblack': ['poppinsb'],
-            'poppinsextrab': ['poppinse']
+            'sans': ['Poppinsbold'],
 
           }
         },

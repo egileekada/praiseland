@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import '../styles.css';
 import MutliCarousel from './MultiCarouselPage'
+import img from '../Image/quote-04.svg'
 import YouTubePlayer from '../Component/YouTube'
 import { MdEventAvailable } from "react-icons/md";
 
@@ -30,28 +31,25 @@ function Body(){
         </Row>
       </Container>
 
-      {/* <div id='center'>
-        <h3 className='font-bold'> Past Events </h3>
-      </div> */}
-
+  
       <Container fluid >
 
           <div  style={{display: 'flex', flexDirection: 'column' }} id='center'>
             <Col xs={12} md={9} lg={6} style={{display: 'flex', flexDirection: 'column', padding:'20px' }} id='center' >
               <h3 className='font-bold'> Past Events </h3>
-              <p style={{textAlign:'center'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+              <p style={{textAlign:'justify'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
             </Col>
           </div>
 
-        <Row xs={10} md={10}  id='center' >
+        <Row xs={10} md={10}  id='center' style={{marginTop:'-10px'}} >
           <Col xs={12} md={5} id='past-event' >
             <div style={{display:'flex', flexDirection:'row' }} >
               <div>
                 <MdEventAvailable style={{width: '40px', height:'40px', marginTop:'20px'}} />
               </div>
-              <div style={{marginTop:'25px', marginLeft:'10px'}} > 
+              <div className='past_event'  > 
                 <h4 className='font-bold' >July HolyGhost Service</h4>
-                <p style={{marginTop: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
+                <p style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
               </div>
             </div>
           </Col>
@@ -60,9 +58,9 @@ function Body(){
               <div>
                 <MdEventAvailable style={{width: '40px', height:'40px', marginTop:'20px'}} />
               </div>
-              <div style={{marginTop:'25px', marginLeft:'10px'}} > 
+              <div className='past_event' > 
                 <h4 className='font-bold' >July HolyGhost Service</h4>
-                <p style={{marginTop: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
+                <p style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
               </div>
             </div>
           </Col>
@@ -71,9 +69,9 @@ function Body(){
               <div>
                 <MdEventAvailable style={{width: '40px', height:'40px', marginTop:'20px'}} />
               </div>
-              <div style={{marginTop:'25px', marginLeft:'10px'}} > 
+              <div className='past_event'> 
                 <h4 className='font-bold' >July HolyGhost Service</h4>
-                <p style={{marginTop: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
+                <p style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
               </div>
             </div>
           </Col>
@@ -82,9 +80,9 @@ function Body(){
               <div>
                 <MdEventAvailable style={{width: '40px', height:'40px', marginTop:'20px'}} />
               </div>
-              <div style={{marginTop:'25px', marginLeft:'10px'}} > 
+              <div className='past_event' > 
                 <h4 className='font-bold' >July HolyGhost Service</h4>
-                <p style={{marginTop: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
+                <p style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
               </div>
             </div>
           </Col>
@@ -149,8 +147,8 @@ function Body(){
         </Row>
       </Container>
 
-      <div id='center' style={{width: '100%', height: '430px', backgroundColor: 'burlywood'}}>
-        <h2>God's Time</h2>
+      <div id='center' style={{width: '100%', height: '400px' ,  backgroundColor: 'blueviolet', backgroundImage: `url(${img})`, backgroundRepeat: 'no-repeat', backgroundSize: 'fit', backgroundPosition: 'center' }}>
+        
       </div>
  
     </div>

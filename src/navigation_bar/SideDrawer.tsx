@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { IoIosHome, IoMdArrowRoundBack, IoIosInformationCircle, IoIosPeople, IoIosPerson, IoMdImages, IoMdCard} from "react-icons/io";
 import { NavLink } from 'react-router-dom'
 import './SideDrawer.css'
-import pic from '../Image/gos.jpeg'
+// import pic from '../Image/gos.jpeg'
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
 import Dialog from '../Component/Online-Giving'
@@ -20,13 +20,13 @@ const SideDrawer = (props: any) => {
       drawerClasses = 'side-drawer open'
     }
   return (
-    <nav className={drawerClasses}>
+    <nav className={drawerClasses}  >
 
-      <div style={{height:'30%', display: 'flex', flexDirection: 'column', backgroundImage: `url(${pic})`, width:'100%', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', }} >
+      <div className='sidebar_header' >
           <IoMdArrowRoundBack onClick={props.click} className='backicon' />
       </div>
       
-      <ul style={{marginTop:'15px'}} >
+      <ul style={{marginTop:'15px', overflow:'scroll'}} >
         
         <hr style={{margin:'0px'}} />
         

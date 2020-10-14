@@ -42,8 +42,7 @@ function WhiteToolbar (props: any) {
             <NavLink exact activeStyle={{color: 'black' }} style={{textDecoration: 'none'}} className='hover:text-black indicator' to="/">__</NavLink>
           </li>
           <li>
-              <NavLink exact activeStyle={{color: 'black' }} id='border' className='font-bold hover:text-green-400 '  to="/pastor">Online Giving</NavLink>
-              <NavLink style={{textDecoration: 'none'}} onClick={handleShow} className='hover:text-black indicator' to="/pastor">___</NavLink>
+              <div onClick={handleShow} style={{ fontSize: '14px',marginTop: '5px', cursor: 'pointer' }}  id='whiteborder' className='font-black font-bold hover:text-green-400 ' >Online Giving</div>
               
               <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
@@ -73,7 +72,7 @@ function WhiteToolbar (props: any) {
           </li>
           <li>
             <NavLink className="bg-green-500 hover:text-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded" id='whiteborder'  to="" >Department</NavLink>
-            <NavLink exact activeStyle={{color: 'white' }} style={{textDecoration: 'none'}} className='hover:text-black indicator' to="/department">____</NavLink>
+            <NavLink exact activeStyle={{color: 'white' }} style={{textDecoration: 'none'}} className='hover:text-transparent indicator' to="/department">____</NavLink>
           </li>
         </ul>
       </div>

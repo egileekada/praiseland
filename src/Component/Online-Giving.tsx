@@ -33,7 +33,7 @@ function Online_Giving(){
                 
                 <p className='font-bold font-serif' >Account Name</p>
 
-                <div style={{display:'flex', flexDirection:'row', marginTop: '-10px' }} >
+                <div style={{display:'flex', flexDirection:'row', marginTop: '-5px' }} >
                     <textarea
                         ref={OfferingRef}
                         value='aaaaaaaaaa'
@@ -57,7 +57,7 @@ function Online_Giving(){
                 
                 <p className='font-bold font-serif' >Account Name</p>
                 
-                <div style={{display:'flex', flexDirection:'row', marginTop:'-10px' }} >
+                <div style={{display:'flex', flexDirection:'row', marginTop:'-5px' }} >
                 
                     <textarea
                     ref={TitheRef}

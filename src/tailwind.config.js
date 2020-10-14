@@ -1,5 +1,9 @@
 // tailwind.config.js
-export const theme = {};
+export const theme = {
+    fontFamily: {
+        body: ['Poppinsbold']
+    }
+};
 export const variants = {
     backgroundColor: ['responsive', 'hover', 'focus', 'active']
 };

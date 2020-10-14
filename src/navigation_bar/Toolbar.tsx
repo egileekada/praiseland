@@ -43,8 +43,7 @@ function Toolbar (props:any ){
               <NavLink exact activeStyle={{color: 'white' }} style={{textDecoration: 'none'}} className='hover:text-white indicator' to="/">__</NavLink>
             </li>
             <li>
-              <NavLink exact activeStyle={{color: 'white' }} id='border' className='font-bold hover:text-green-400 '  to="/">Online Giving</NavLink>
-              <NavLink style={{textDecoration: 'none'}} onClick={handleShow} className='hover:text-white indicator' to="">___</NavLink>
+            <div onClick={handleShow} style={{ fontSize: '14px',marginTop: '5px', cursor: 'pointer', color: 'white'}} className='font-white font-bold hover:text-green-400 ' >Online Giving</div>
               
               <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
@@ -75,7 +74,7 @@ function Toolbar (props:any ){
             </li>
             <li>
               <NavLink exact activeStyle={{backgroundColor:'transparent' }} className="bg-green-500 hover:text-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded" id='border'  to="/department" >Department</NavLink>
-              <NavLink exact activeStyle={{color: 'white'  }} style={{textDecoration: 'none'}} className='hover:text-white indicator' to="/department">____</NavLink>
+              <NavLink exact activeStyle={{color: 'white'  }} style={{textDecoration: 'none'}} className='hover:text-transparent indicator' to="/department">____</NavLink>
             </li>
           </ul>
           

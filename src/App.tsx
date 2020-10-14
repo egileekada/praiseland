@@ -7,6 +7,7 @@ import Pastor from './Screens/PastorCorner'
 import Home from './Screens/Home'
 import Department from './Screens/Department'
 import About from './Screens/About_Us'
+import Adimn from './Screens/Admin'
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
           <Route exact path="/gallery" component={Gallery} />   
           <Route exact path="/pastor" component={Pastor} />  
           <Route exact path="/department" component={Department} />    
-          <Route exact path="/about" component={About} />                      
+          <Route exact path="/about" component={About} /> 
+          <Route exact path="/about" component={Adimn} />                             
         </Switch>
       </Router>
     </div>

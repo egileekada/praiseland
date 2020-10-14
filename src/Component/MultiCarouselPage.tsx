@@ -44,7 +44,8 @@ class MultiCarouselPage extends React.Component<any, any, any> {
       <Carousel
         swipeable={true}
         draggable={true}
-        showDots={false}
+        showDots={true}
+        arrows={false}
         responsive={responsive}
         partialVisbile={true}
         ssr={true} // means to render carousel on server-side.

@@ -3,33 +3,8 @@
 @import "tailwindcss/components";
 
 @font-face {
-    font-family: 'latol';
-    src: local('latol'), url(./fonts/lato_light.ttf) format('ttf');
-  }
-
-@font-face {
-    font-family: 'lator';
-    src: local('lator'), url(./fonts/lato_regular.ttf) format('ttf');
-  }
-
-@font-face {
-    font-family: 'poppinsb';
-    src: local('poppinsb'), url(./fonts/poppins_black.ttf) format('ttf');
-  }
-
-@font-face {
-    font-family: 'poppinse';
-    src: local('poppinse'), url(./fonts/poppins_extra_bold.ttf) format('ttf');
-  }
-
-@font-face {
-    font-family: 'poppins';
-    src: local('poppins'), url(./fonts/poppins_light.ttf) format('ttf');
-  }
-
-@font-face {
-    font-family: 'poppinsbold';
-    src: local('poppinsbold'), url(./fonts/poppinsbold.ttf) format('ttf');
+    font-family: 'Poppinsbold';
+    src: local('Poppinsbold'), url('./fonts/poppinsbold.ttf') format('ttf');
   }
 
 

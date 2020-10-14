@@ -1,57 +1,49 @@
-import React from 'react'
+import React, { useState } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
-import Navigate from '../Component/Navigation'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col' 
-import '../styles.css'
+import Navigate from '../Component/WhiteNavbar'
+// import UploadForm from '../Gallery_Component/UploadForm';
+import ImageGrid from '../Gallery_Component/ImageGrid';
+import Modal from 'react-bootstrap/Modal'
 
-export default class Gallery extends React.Component<any, any, any> {
-    arr = [
-        {
-            img: require('../Image/1.jpg')
-        },
-        {
-            img: require('../Image/2.jpg')
-        },
-        {
-            img: require('../Image/3.jpg')
-        }
-    ]
+function App() {
+  const [selectedImg, setSelectedImg]:any = useState(null);
 
-    render(){
-        return(
-            <div style={{backgroundColor: 'black'}} >
+  const [modalShow, setModalShow] = React.useState(false);
 
-                <Navbar sticky='top' bg="black" style={{height: '65px', width: '100%', position: 'fixed', marginBottom: '1060px'}} >
-                    <Navigate />
-                </Navbar> 
+  return (
+    <div className="App">
 
-                <div style={{paddingTop: '60px'}} >
-                    <Container fluid>
-                        <Row id='center'>
-                            <Col sm='9' md='5' lg='3' className='gallery' ></Col>
-                            <Col sm='9' md='5' lg='3' className='gallery' ></Col>
-                            <Col sm='9' md='5' lg='3' className='gallery' ></Col>
-                            <Col sm='9' md='5' lg='3' className='gallery' ></Col>
-                            <Col sm='9' md='5' lg='3' className='gallery' ></Col>
-                            <Col sm='9' md='5' lg='3' className='gallery' ></Col>
-                            <Col sm='9' md='5' lg='3' className='gallery' ></Col>
-                            <Col sm='9' md='5' lg='3' className='gallery' ></Col>
-                            <Col sm='9' md='5' lg='3' className='gallery' ></Col>
-                            <Col sm='9' md='5' lg='3' className='gallery' ></Col>
-                            <Col sm='9' md='5' lg='3' className='gallery' ></Col>
-                            <Col sm='9' md='5' lg='3' className='gallery' ></Col>
-                        </Row>
-                        {/* <Row id='center'>
-                            <Col sm='10' md='5' lg='3' style={{ backgroundPosition: 'center', backgroundImage: `url(${this.arr.img})`, backgroundRepeat: 'no-repeat'}} className='gallery' ></Col>
-                        </Row> */}
-                    </Container>
-                </div>
-                
-            </div>
-        );
-    }
+        <Navbar sticky='top' bg="black" style={{height: '65px', width: '100%', position: 'fixed', marginBottom: '60px'}} >
+            <Navigate />
+        </Navbar> 
+
+        
+        {/* <Title/> */}
+        {/* <UploadForm /> */}
+        <div style={{marginTop: '20px'}} onClick={() => setModalShow(true)}>
+            <ImageGrid setSelectedImg={setSelectedImg}   />
+        </div>
+        
+        { selectedImg && (
+
+                <Modal
+                    show={modalShow}
+                    onHide={() => setModalShow(false)}
+                    // {...props}
+                    size="lg"
+                    aria-labelledby="contained-modal-title-vcenter"
+                    centered
+                    
+                >
+                    <img
+                        src={selectedImg}     
+                        alt= 'pics'
+                    />
+                </Modal>
+        )}
+
+    </div>
+  );
 }
 
-// export default Gallery;
+export default App;
