@@ -37,7 +37,7 @@ const SideDrawer = (props: any) => {
         <hr style={{margin:'0px'}} />
 
         <div onClick={props.click} >
-          <div  className=' drawerlist' onClick={handleShow} centered >        
+          <div  className=' drawerlist' onClick={handleShow} >        
             <IoMdCard style={{marginLeft:'20px'}} className='icon' />
             Online Giving
           </div>    
@@ -74,7 +74,7 @@ const SideDrawer = (props: any) => {
     
       </ul>
       
-        <Modal show={show} onHide={handleClose}>
+        <Modal show={show} onHide={handleClose} centered >
             <Modal.Header closeButton>
               <Modal.Title className='font-bold font-serif'>
                 Online Giving
