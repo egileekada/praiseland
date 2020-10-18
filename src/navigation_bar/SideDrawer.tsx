@@ -37,7 +37,7 @@ const SideDrawer = (props: any) => {
         <hr style={{margin:'0px'}} />
 
         <div onClick={props.click} >
-          <div  className=' drawerlist' onClick={handleShow}  >        
+          <div  className=' drawerlist' onClick={handleShow} centered >        
             <IoMdCard style={{marginLeft:'20px'}} className='icon' />
             Online Giving
           </div>    
