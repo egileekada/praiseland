@@ -45,7 +45,7 @@ function Toolbar (props:any ){
             <li>
             <div onClick={handleShow} style={{ fontSize: '14px',marginTop: '5px', cursor: 'pointer', color: 'white'}} className='font-white font-bold hover:text-green-400 ' >Online Giving</div>
               
-              <Modal show={show} onHide={handleClose}>
+              <Modal show={show} onHide={handleClose} centered >
                 <Modal.Header closeButton>
                   <Modal.Title className='font-bold font-serif' >
                     Online Giving

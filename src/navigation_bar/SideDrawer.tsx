@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 import { IoIosHome, IoMdArrowRoundBack, IoIosInformationCircle, IoIosPeople, IoIosPerson, IoMdImages, IoMdCard} from "react-icons/io";
 import { NavLink } from 'react-router-dom'
 import './SideDrawer.css'
-// import pic from '../Image/gos.jpeg'
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
 import Dialog from '../Component/Online-Giving'
