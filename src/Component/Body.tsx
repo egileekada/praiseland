@@ -21,12 +21,12 @@ function Body(){
 
         <div  style={{display: 'flex', flexDirection: 'column' }} id='center'>
           <Col xs={12} md={9} lg={6} style={{display: 'flex', flexDirection: 'column', padding:'20px' }} id='center' >
-            <h3> Upcoming Events </h3>
+            <h3 className='font-bold font-lg'> Upcoming Events </h3>
             <p style={{textAlign:'center'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
           </Col>
         </div>
 
-        <Row xs={12} md={10} style={{padding:'12px'}} id='center' >
+        <Row xs={12} md={10} style={{padding:'12px', marginTop: '-40px' }} id='center' >
           <Col xs={12} md={12} lg={12}> <MutliCarousel/></Col>        
         </Row>
       </Container>
@@ -37,11 +37,11 @@ function Body(){
           <div  style={{display: 'flex', flexDirection: 'column' }} id='center'>
             <Col xs={12} md={9} lg={6} style={{display: 'flex', flexDirection: 'column', padding:'20px' }} id='center' >
               <h3 className='font-bold'> Past Events </h3>
-              <p style={{textAlign:'justify'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+              <p style={{textAlign:'center'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
             </Col>
           </div>
 
-        <Row xs={10} md={10}  id='center' style={{marginTop:'-10px'}} >
+        <Row xs={10} md={10}  id='center' style={{marginTop:'-20px'}} >
           <Col xs={12} md={5} id='past-event' >
             <div style={{display:'flex', flexDirection:'row' }} >
               <div>
@@ -105,7 +105,7 @@ function Body(){
         
         <Row xs={10} md={12} style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
       
-          <Col xs={9} md={5} lg={3} id='testimony' >
+          <Col xs={10} md={5} lg={3} id='testimony' >
             <div >
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, laudantium?</p>
 
@@ -118,7 +118,7 @@ function Body(){
               </div>
             </div>
           </Col>
-          <Col xs={9} md={5} lg={3} id='testimony'>
+          <Col xs={10} md={5} lg={3} id='testimony'>
             <div >
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, laudantium?</p>
 
@@ -131,7 +131,7 @@ function Body(){
               </div>
             </div>
           </Col>
-          <Col xs={11} md={5} lg={3} id='testimony'>
+          <Col xs={10} md={5} lg={3} id='testimony'>
             <div >
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, laudantium?</p>
 
