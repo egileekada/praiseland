@@ -21,12 +21,12 @@ function Body(){
 
         <div  style={{display: 'flex', flexDirection: 'column' }} id='center'>
           <Col xs={12} md={9} lg={6} style={{display: 'flex', flexDirection: 'column', padding:'20px' }} id='center' >
-            <h3 className='font-bold font-lg'> Upcoming Events </h3>
+            <h3 className='font-bold text-2xl lg:text-3xl'> Upcoming Events </h3>
             <p style={{textAlign:'center'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
           </Col>
         </div>
 
-        <Row xs={12} md={10} style={{padding:'12px', marginTop: '-40px' }} id='center' >
+        <Row xs={12} md={10} style={{padding:'12px', marginTop: '-25px' }} id='center' >
           <Col xs={12} md={12} lg={12}> <MutliCarousel/></Col>        
         </Row>
       </Container>
@@ -36,7 +36,7 @@ function Body(){
 
           <div  style={{display: 'flex', flexDirection: 'column' }} id='center'>
             <Col xs={12} md={9} lg={6} style={{display: 'flex', flexDirection: 'column', padding:'20px' }} id='center' >
-              <h3 className='font-bold'> Past Events </h3>
+              <h3 className='font-bold text-2xl lg:text-3xl'> Past Events </h3>
               <p style={{textAlign:'center'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
             </Col>
           </div>
@@ -48,7 +48,7 @@ function Body(){
                 <MdEventAvailable style={{width: '40px', height:'40px', marginTop:'20px'}} />
               </div>
               <div className='past_event'  > 
-                <h4 className='font-bold' >July HolyGhost Service</h4>
+                <h4 className='font-bold text-xl lg:text-3xl' >July HolyGhost Service</h4>
                 <p style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
               </div>
             </div>
@@ -59,7 +59,7 @@ function Body(){
                 <MdEventAvailable style={{width: '40px', height:'40px', marginTop:'20px'}} />
               </div>
               <div className='past_event' > 
-                <h4 className='font-bold' >July HolyGhost Service</h4>
+                <h4 className='font-bold text-xl lg:text-3xl' >July HolyGhost Service</h4>
                 <p style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
               </div>
             </div>
@@ -70,7 +70,7 @@ function Body(){
                 <MdEventAvailable style={{width: '40px', height:'40px', marginTop:'20px'}} />
               </div>
               <div className='past_event'> 
-                <h4 className='font-bold' >July HolyGhost Service</h4>
+                <h4 className='font-bold text-xl lg:text-3xl' >July HolyGhost Service</h4>
                 <p style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
               </div>
             </div>
@@ -81,7 +81,7 @@ function Body(){
                 <MdEventAvailable style={{width: '40px', height:'40px', marginTop:'20px'}} />
               </div>
               <div className='past_event' > 
-                <h4 className='font-bold' >July HolyGhost Service</h4>
+                <h4 className='font-bold text-xl lg:text-3xl' >July HolyGhost Service</h4>
                 <p style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
               </div>
             </div>
@@ -98,7 +98,7 @@ function Body(){
       <Container fluid>
           <div  style={{display: 'flex', flexDirection: 'column' }} id='center'>
             <Col xs={12} md={9} lg={6} style={{display: 'flex', flexDirection: 'column', padding:'20px' }} id='center' >
-              <h3 className='font-bold'> Testimonies </h3>
+              <h3 className='font-bold text-2xl lg:text-3xl'> Testimonies </h3>
               <p style={{textAlign:'center'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
             </Col>
           </div>

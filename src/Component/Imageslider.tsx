@@ -36,7 +36,7 @@ export default class imageslider extends React.Component<any, any, any> {
         }
     ];
     notActive = "h-2 w-2 rounded bg-gray-100 opacity-50 mr-2 rounded-lg cursor-pointer";
-    active = "h-3 w-3 rounded bg-white rounded-lg mr-2  cursor-pointer";
+    active = "h-2 w-2 rounded bg-white rounded-lg mr-2  cursor-pointer";
 
     componentDidMount() {
      this.change();
