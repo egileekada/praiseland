@@ -21,7 +21,7 @@ function Body(){
 
         <div  style={{display: 'flex', flexDirection: 'column' }} id='center'>
           <Col xs={12} md={9} lg={6} style={{display: 'flex', flexDirection: 'column', padding:'20px' }} id='center' >
-            <h3 className='font-bold'> Upcoming Events </h3>
+            <h3> Upcoming Events </h3>
             <p style={{textAlign:'center'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
           </Col>
         </div>
@@ -131,7 +131,7 @@ function Body(){
               </div>
             </div>
           </Col>
-          <Col xs={9} md={5} lg={3} id='testimony'>
+          <Col xs={11} md={5} lg={3} id='testimony'>
             <div >
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, laudantium?</p>
 
