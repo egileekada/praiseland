@@ -48,7 +48,7 @@ function Body(){
                 <MdEventAvailable style={{width: '40px', height:'40px', marginTop:'20px'}} />
               </div>
               <div className='past_event'  > 
-                <h4 className='font-bold text-xl lg:text-3xl' >July HolyGhost Service</h4>
+                <h4 className='font-bold text-xl lg:text-2xl' >July HolyGhost Service</h4>
                 <p style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
               </div>
             </div>
@@ -59,7 +59,7 @@ function Body(){
                 <MdEventAvailable style={{width: '40px', height:'40px', marginTop:'20px'}} />
               </div>
               <div className='past_event' > 
-                <h4 className='font-bold text-xl lg:text-3xl' >July HolyGhost Service</h4>
+                <h4 className='font-bold text-xl lg:text-2xl' >July HolyGhost Service</h4>
                 <p style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
               </div>
             </div>
@@ -70,7 +70,7 @@ function Body(){
                 <MdEventAvailable style={{width: '40px', height:'40px', marginTop:'20px'}} />
               </div>
               <div className='past_event'> 
-                <h4 className='font-bold text-xl lg:text-3xl' >July HolyGhost Service</h4>
+                <h4 className='font-bold text-xl lg:text-2xl' >July HolyGhost Service</h4>
                 <p style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
               </div>
             </div>
@@ -81,7 +81,7 @@ function Body(){
                 <MdEventAvailable style={{width: '40px', height:'40px', marginTop:'20px'}} />
               </div>
               <div className='past_event' > 
-                <h4 className='font-bold text-xl lg:text-3xl' >July HolyGhost Service</h4>
+                <h4 className='font-bold text-xl lg:text-2xl' >July HolyGhost Service</h4>
                 <p style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
               </div>
             </div>
