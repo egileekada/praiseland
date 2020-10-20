@@ -21,18 +21,18 @@ export default class imageslider extends React.Component<any, any, any> {
     arr = [
         {
             img: require('../Image/1.jpg'),
-            header: 'Department of Rccg Praise Land Parish Eagle Island',
-            body: 'Editing videos has never felt this easy, Log In or Get Started today',
+            header: 'Welcome to R.C.C.G Praise Land Parish Eagle Island',
+            body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.',
         },
         {
             img: require('../Image/2.jpg'),
-            header: 'Let Your Videos Pop',
-            body: 'Editing videos has never felt this easy, Log In or Get Started today',
+            header: 'Where We worship and experience an outflow of Gods Presence',
+            body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.',
         },
         {
             img: require('../Image/3.jpg'),
-            body: 'Editing videos has never felt this easy, Log In or Get Started today',
-            header: 'Get Ready, Set, Action'
+            body: 'We Share the word of God as it is without compromise or hesitation',
+            header: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.'
         }
     ];
     notActive = "h-2 w-2 rounded bg-gray-100 opacity-50 mr-2 rounded-lg cursor-pointer";
@@ -87,7 +87,7 @@ export default class imageslider extends React.Component<any, any, any> {
                         <Container fluid >
                             <Row xs={12} md={12} style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                             <Col  xs={12} md={12} lg={12} id='slide' >
-                                <h1 style={{textShadow:'3px 3px #0700008a'}} className="font-bold font-body text-white items-center text-lg lg:text-4xl xl:text-4xl "  >{this.arr[this.state.COUNT].header}</h1>
+                                <h1 style={{textShadow:'3px 3px #0700008a'}} className="font-bold font-serif text-white items-center text-lg lg:text-4xl xl:text-4xl "  >{this.arr[this.state.COUNT].header}</h1>
                                 <p style={{textShadow:'3px 3px #0700008a'}} className="text-white font-mont-medium text-xs">{this.arr[this.state.COUNT].body}</p>      
                             </Col>
                             <Col xs={7} md={7} lg={7} id='indicator' >
