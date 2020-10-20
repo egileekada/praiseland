@@ -31,8 +31,8 @@ export default class imageslider extends React.Component<any, any, any> {
         },
         {
             img: require('../Image/3.jpg'),
-            body: 'We Share the word of God as it is without compromise or hesitation',
-            header: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.'
+            header: 'We Share the word of God as it is without compromise or hesitation',
+            body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.'
         }
     ];
     notActive = "h-2 w-2 rounded bg-gray-100 opacity-50 mr-2 rounded-lg cursor-pointer";
@@ -86,7 +86,7 @@ export default class imageslider extends React.Component<any, any, any> {
                         
                         <Container fluid >
                             <Row xs={12} md={12} style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                            <Col  xs={12} md={12} lg={12} id='slide' >
+                            <Col  xs={9} md={9} lg={7} id='slide' >
                                 <h1 style={{textShadow:'3px 3px #0700008a'}} className="font-bold font-serif text-white items-center text-lg lg:text-4xl xl:text-4xl "  >{this.arr[this.state.COUNT].header}</h1>
                                 <p style={{textShadow:'3px 3px #0700008a'}} className="text-white font-mont-medium text-xs">{this.arr[this.state.COUNT].body}</p>      
                             </Col>
