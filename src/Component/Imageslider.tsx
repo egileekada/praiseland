@@ -6,7 +6,6 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
-import Modal from 'react-bootstrap/Modal'
 
 
 type State = {
@@ -111,28 +110,5 @@ export default class imageslider extends React.Component<any, any, any> {
         </div>
     )
     }
-}
-
-function ModalBlock() {
-    const [show, setShow] = React.useState(false);
-
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-
-    return(
-        <Modal show={show} onHide={handleClose} centered >
-            <Modal.Header closeButton>
-              <Modal.Title className='font-bold font-serif'>
-                Online Giving
-              </Modal.Title>
-            </Modal.Header>
-            <Modal.Body>
-              {/* <Dialog /> */}
-            </Modal.Body>
-            <Modal.Footer>
-              <Button onClick={handleClose} variant="secondary">Close</Button>                              
-            </Modal.Footer>
-          </Modal>
-    )
 }
 // className="flex h-16 carousel-indicators sm:bottom-0 "
