@@ -198,6 +198,9 @@ a {
   .cornertext{
     height: 350px;
   }
+  #slide{
+    height: 400px ;
+  }
   .past_event{
     justify-content: center;
     align-items: center;
