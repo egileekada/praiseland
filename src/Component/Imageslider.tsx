@@ -138,9 +138,4 @@ function Button_block(){
     )
 }
 
-function dialog_block(){
-
-    
-
-}
 // className="flex h-16 carousel-indicators sm:bottom-0 "
