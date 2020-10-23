@@ -5,7 +5,7 @@ import { AnimateOnChange} from 'react-animation';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-
+import Button from 'react-bootstrap/Button'
 
 
 type State = {
@@ -89,7 +89,9 @@ export default class imageslider extends React.Component<any, any, any> {
                             <Col  xs={9} md={9} lg={7} id='slide' >
                                 <h1 style={{textShadow:'3px 3px #0700008a'}} className="font-bold font-serif text-white items-center text-lg lg:text-4xl xl:text-4xl "  >{this.arr[this.state.COUNT].header}</h1>
                                 {/* <p style={{textShadow:'3px 3px #0700008a'}} className="text-white font-mont-medium text-xs">{this.arr[this.state.COUNT].body}</p>       */}
+                                <Button variant="success">Contact Us</Button>
                             </Col>
+                        
                             <Col xs={7} md={7} lg={7} id='indicator' >
                                 <div className="flex carousel-indicators " style={{ display:'flex', justifyContent:'center', alignItems:'center' }}> 
                                         {
