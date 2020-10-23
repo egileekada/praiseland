@@ -66,7 +66,7 @@ const SideDrawer = (props: any) => {
 
         <hr style={{margin:'0px'}} />
 
-        <NavLink exact activeStyle={{backgroundColor: '#87ceeb', color:'blue'}} className='drawerlist text-bold hover:bg-blue-200' to="/department">
+        <NavLink exact activeStyle={{backgroundColor: '#87ceeb', color:'blue'}} className='text-bold hover:bg-blue-200 drawerlist' to="/department">
             <IoIosPeople className='icon' />
             Department
         </NavLink>
