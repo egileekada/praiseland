@@ -137,5 +137,3 @@ function Button_block(){
         </div>
     )
 }
-
-// className="flex h-16 carousel-indicators sm:bottom-0 "
