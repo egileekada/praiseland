@@ -140,7 +140,7 @@ function Buttonblock(){
                 </Modal.Header>
                 <Modal.Body id='center'>
                     <h6>Click on Icon to contact the church: </h6>
-                    <IoLogoGoogle size='50px' style={{marginLeft:'20px'}} />
+                    <IoLogoGoogle size='50px' style={{marginLeft:'20px', cursor: 'pointer'}} />
                 </Modal.Body>
                 <Modal.Footer>
                 <Button onClick={handleClose} variant="secondary">Close</Button>                              
