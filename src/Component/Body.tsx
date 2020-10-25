@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import '../styles.css';
 import MutliCarousel from './MultiCarouselPage'
-import img from '../Image/quote-04.svg'
+// import img from '../Image/quote-04.svg'
 import YouTubePlayer from '../Component/YouTube'
 import { MdEventAvailable } from "react-icons/md";
 
@@ -147,8 +147,10 @@ function Body(){
         </Row>
       </Container>
 
-      <div id='center' style={{width: '100%', height: '400px' ,  backgroundColor: 'blueviolet', backgroundImage: `url(${img})`, backgroundRepeat: 'no-repeat', backgroundSize: 'fit', backgroundPosition: 'center' }}>
-        
+      <div id='center' style={{width: '100%', height: '500px' ,  backgroundColor: 'blueviolet', padding:'40px' }}>
+        <div id='center' style={{width: '100%', height:'100%', border:'2px solid white', padding: '50px', borderRadius:'30px'}} >
+          <p style={{fontSize:'20px', textAlign:'center', color: 'white'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, nam! Facere obcaecati illo quia quos libero? Quae amet autem a voluptas cum reiciendis.</p>
+        </div>
       </div>
  
     </div>

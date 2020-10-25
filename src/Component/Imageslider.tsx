@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
+import {IoLogoGoogle} from "react-icons/io"
 import Modal from 'react-bootstrap/Modal'
 
 
@@ -37,7 +38,7 @@ export default class imageslider extends React.Component<any, any, any> {
         }
     ];
     notActive = "h-2 w-2 rounded bg-gray-100 opacity-50 mr-2 rounded-lg cursor-pointer";
-    active = "h-2 w-2 rounded bg-white rounded-lg mr-2  cursor-pointer";
+    active = "h-2 w-2 rounded bg-green-500 rounded-lg mr-2  cursor-pointer";
 
     componentDidMount() {
      this.change();
@@ -121,14 +122,25 @@ function Buttonblock(){
     return(
         <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
         <Button className='font-bold' onClick={handleShow} style={{position: 'absolute', bottom: '10px' }} variant="success">Contact Us</Button>
-            <Modal show={show} onHide={handleClose} centered >
-                <Modal.Header closeButton>
+            <Modal show={show} onHide={handleClose} centered >                
+                <Modal.Header style={{display: 'flex', flexDirection: 'row', justifyContent:'center', alignItems: 'center' }} closeButton>
+                <div style={{flex:'1'}} />
                 <Modal.Title className='font-bold font-serif'>
-                    Online Giving
+                    <img
+                        alt=""
+                        src= {require('../Image/logo.png')}
+                        width="50px"
+                        height="50px" 
+                        style={{marginLeft: '30px', marginRight: '10px', marginTop: '-5px'}}/>
                 </Modal.Title>
+                <Modal.Title className='font-bold font-serif' >
+                    Contact Us
+                </Modal.Title>
+                <div style={{flex:'1'}} />
                 </Modal.Header>
-                <Modal.Body>
-                    <h1>Hello World</h1>
+                <Modal.Body id='center'>
+                    <h6>Click on Icon to contact the church: </h6>
+                    <IoLogoGoogle size='50px' style={{marginLeft:'20px'}} />
                 </Modal.Body>
                 <Modal.Footer>
                 <Button onClick={handleClose} variant="secondary">Close</Button>                              
