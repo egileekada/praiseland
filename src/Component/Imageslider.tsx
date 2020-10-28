@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
-import {IoLogoGoogle} from "react-icons/io"
+import {IoMdMail} from "react-icons/io"
 import Modal from 'react-bootstrap/Modal'
 
 
@@ -133,17 +133,17 @@ function Buttonblock(){
                         height="50px" 
                         style={{marginLeft: '30px', marginRight: '10px', marginTop: '-5px'}}/>
                 </Modal.Title>
-                <Modal.Title className='font-bold font-serif' >
+                <Modal.Title className='font-Poppinsbold' >
                     Contact Us
                 </Modal.Title>
                 <div style={{flex:'1'}} />
                 </Modal.Header>
-                <Modal.Body id='center' style={{display:'flex', flexDirection:'column'}}>
-                    <h6>Click on Icon to contact the church: </h6>
-                    <IoLogoGoogle size='50px' style={{marginTop:'20px', cursor: 'pointer'}} />
+                <Modal.Body style={{display:'flex', flexDirection:'column', alignItems:'center'}}>
+                    <h6 className='font-Poppins' >Click on Icon to contact the church: </h6>
+                    <IoMdMail size='50px' style={{marginTop:'5px', cursor: 'pointer'}} />
                 </Modal.Body>
                 <Modal.Footer>
-                <Button onClick={handleClose} variant="secondary">Close</Button>                              
+                <Button className='font-Poppinsbold' onClick={handleClose} variant="secondary">Close</Button>                              
                 </Modal.Footer>
             </Modal>
         </div>
