@@ -40,11 +40,10 @@
 .sidebar_header{
   height: 70px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .drawerlist {
@@ -66,11 +65,7 @@
 .backicon{
   height: 30px;
   width: 30px;
-  position: absolute;
-  right: 30px;
-  top: 20px;
   cursor: pointer;
-  /* background-color: #87ceeb; */
-  border-radius: 20px;
   color:black;
 }
+

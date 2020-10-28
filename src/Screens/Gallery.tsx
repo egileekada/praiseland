@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
 
-        <Navbar sticky='top' bg="black" style={{height: '65px', width: '100%', position: 'fixed', marginBottom: '60px'}} >
+        <Navbar sticky='top' bg="white" style={{height: '65px', width: '100%', position: 'fixed', marginBottom: '60px'}} >
             <Navigate />
         </Navbar> 
 

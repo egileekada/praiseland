@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { IoIosHome, IoMdArrowRoundBack, IoIosInformationCircle, IoIosPeople, IoIosPerson, IoMdImages, IoMdCard} from "react-icons/io";
+import { IoIosHome, IoMdClose, IoIosInformationCircle, IoIosPeople, IoIosPerson, IoMdImages, IoMdCard} from "react-icons/io";
 import { NavLink } from 'react-router-dom'
 import './SideDrawer.css'
 import Modal from 'react-bootstrap/Modal'
@@ -22,14 +22,15 @@ const SideDrawer = (props: any) => {
     <nav className={drawerClasses} style={{overflow:'scroll'}} >
 
       <div className='sidebar_header' >
-          <IoMdArrowRoundBack onClick={props.click} className='backicon' />
+        <p className='font-Poppinsbold' style={{margin: '10px'}} >Praise Land Parish</p>
+          <IoMdClose onClick={props.click} className='backicon' />
       </div>
       
       <ul style={{marginTop:'15px', overflow:'scroll'}} >
         
         <hr style={{margin:'0px'}} />
         
-        <NavLink exact activeStyle={{backgroundColor: '#87ceeb', color:'blue'}} className='hover:bg-blue-200 drawerlist'  to="/">
+        <NavLink exact activeStyle={{backgroundColor: '#87ceeb', color:'blue'}} className='font-Poppins text-md font-bold hover:bg-blue-200 drawerlist'  to="/">
             <IoIosHome className='icon' />
             Home
         </NavLink>
@@ -37,7 +38,7 @@ const SideDrawer = (props: any) => {
         <hr style={{margin:'0px'}} />
 
         <div onClick={props.click} >
-          <div  className=' drawerlist' onClick={handleShow} >        
+          <div  className='font-Poppins text-md font-bold drawerlist' onClick={handleShow} >        
             <IoMdCard style={{marginLeft:'20px'}} className='icon' />
             Online Giving
           </div>    
@@ -45,28 +46,28 @@ const SideDrawer = (props: any) => {
         
         <hr style={{margin:'0px'}} />
         
-        <NavLink exact activeStyle={{backgroundColor: '#87ceeb', color:'blue'}} className='text-bold drawerlist text-bold hover:bg-blue-200' to="/gallery">
+        <NavLink exact activeStyle={{backgroundColor: '#87ceeb', color:'blue'}} className='font-Poppins text-md font-bold drawerlist hover:bg-blue-200' to="/gallery">
             <IoMdImages className='icon' />
             Photo Gallery
         </NavLink>
         
         <hr style={{margin:'0px'}} />
         
-        <NavLink exact activeStyle={{backgroundColor: '#87ceeb', color:'blue'}} className='drawerlist text-bold hover:bg-blue-200' to="/pastor">
+        <NavLink exact activeStyle={{backgroundColor: '#87ceeb', color:'blue'}} className='font-Poppins text-md font-bold drawerlist hover:bg-blue-200' to="/pastor">
             <IoIosPerson className='icon' />
             Pastor Corner
         </NavLink>
         
         <hr style={{margin:'0px'}} />
         
-        <NavLink exact activeStyle={{backgroundColor: '#87ceeb', color:'blue'}} className='drawerlist text-bold hover:bg-blue-200' to="/about">
+        <NavLink exact activeStyle={{backgroundColor: '#87ceeb', color:'blue'}} className='font-Poppins text-md font-bold drawerlist hover:bg-blue-200' to="/about">
             <IoIosInformationCircle className='icon' />
             About Us
         </NavLink>
 
         <hr style={{margin:'0px'}} />
 
-        <NavLink exact activeStyle={{backgroundColor: '#87ceeb', color:'blue'}} className='text-bold hover:bg-blue-200 drawerlist' to="/department">
+        <NavLink exact activeStyle={{backgroundColor: '#87ceeb', color:'blue'}} className='font-Poppins text-md font-bold hover:bg-blue-200 drawerlist' to="/department">
             <IoIosPeople className='icon' />
             Department
         </NavLink>
