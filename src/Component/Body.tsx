@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col'
 import '../styles.css';
 import MutliCarousel from './MultiCarouselPage'
 // import img from '../Image/quote-04.svg'
+// import IoLogoGoogle from 'io'
 import YouTubePlayer from '../Component/YouTube'
 import { MdEventAvailable } from "react-icons/md";
 

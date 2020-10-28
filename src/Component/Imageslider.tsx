@@ -89,7 +89,7 @@ export default class imageslider extends React.Component<any, any, any> {
                         <Container fluid >
                             <Row xs={12} md={12} style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                             <Col  xs={9} md={9} lg={7} id='slide' >
-                                <h1 style={{textShadow:'3px 3px #0700008a'}} className="font-bold font-serif text-white items-center text-lg lg:text-4xl xl:text-4xl "  >{this.arr[this.state.COUNT].header}</h1>
+                                <h1 style={{textShadow:'3px 3px #0700008a'}} className="font-bold font-Poppinsbold text-white items-center text-lg lg:text-4xl xl:text-4xl "  >{this.arr[this.state.COUNT].header}</h1>
                                 {/* <p style={{textShadow:'3px 3px #0700008a'}} className="text-white font-mont-medium text-xs">{this.arr[this.state.COUNT].body}</p>       */}
                                 <Buttonblock />
                             </Col>
@@ -121,7 +121,7 @@ function Buttonblock(){
     const handleShow = () => setShow(true);
     return(
         <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
-        <Button className='font-bold' onClick={handleShow} style={{position: 'absolute', bottom: '10px' }} variant="success">Contact Us</Button>
+        <Button className='font-bold font-Poppinsbold' onClick={handleShow} style={{position: 'absolute', bottom: '10px' }} variant="success">Contact Us</Button>
             <Modal show={show} onHide={handleClose} centered >                
                 <Modal.Header style={{display: 'flex', flexDirection: 'row', justifyContent:'center', alignItems: 'center' }} closeButton>
                 <div style={{flex:'1'}} />

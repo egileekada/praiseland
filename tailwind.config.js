@@ -259,6 +259,9 @@ module.exports = {
       ],
       serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
+      'Poppinsbold': 'Poppinsbold',
+      'lato': 'lato',
+      'Poppins': 'Poppins',
     },
     fontSize: {
       xs: '0.75rem',
