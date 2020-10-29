@@ -2,10 +2,8 @@ import React from "react";
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import '../styles.css';
+import './Styles/Body.css';
 import MutliCarousel from './MultiCarouselPage'
-// import img from '../Image/quote-04.svg'
-// import IoLogoGoogle from 'io'
 import YouTubePlayer from '../Component/YouTube'
 import { MdEventAvailable } from "react-icons/md";
 
@@ -13,10 +11,6 @@ function Body(){
 
   return(
     <div>
-      
-      {/* <div id='center'>
-        <h3 className='font-bold'> Upcoming Events </h3>
-      </div> */}
       
       <Container fluid >
 

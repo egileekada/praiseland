@@ -1,13 +1,13 @@
-import React, { useRef, useState } from 'react'
+import React from 'react'
 
 
 
 function Online_Giving(){
 
-    const [copySuccess, setCopySuccess] = useState('');
-    const [copySuccess2, setCopySuccess2] = useState('');
-    const OfferingRef: any = useRef(null);
-    const TitheRef: any = useRef(null);
+    const [copySuccess, setCopySuccess] = React.useState('');
+    const [copySuccess2, setCopySuccess2] = React.useState('');
+    const OfferingRef: any = React.useRef(null);
+    const TitheRef: any = React.useRef(null);
   
     function offering(e: any) {
       OfferingRef.current.select();

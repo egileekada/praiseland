@@ -1,8 +1,7 @@
 import React, {useState} from 'react';
-// import Navigate from '../Component/Home-Navigation';
-import Carousel from '../Component/Imageslider'
+import Carousel from '../Component/Slides'
 import Main from '../Component/Body'
-import Bottom from '../Component/footer'
+import Bottom from '../Component/Footer'
 import Navigate from '../Component/Navigation'
 import Navbar from 'react-bootstrap/Navbar';
 

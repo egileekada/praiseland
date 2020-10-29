@@ -1,0 +1,27 @@
+#footer-container {
+    /* height:'40px', alignItems: 'center', bottom: '-4px' */
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(167, 162, 162);
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    
+}
+#footer-font{
+    color: black;
+    font-size: small; 
+    margin-top: auto;
+    margin-bottom: auto;
+}
+@media (max-width: 312px) {
+    #footer-font {
+      font-size: 6px;
+    }
+}
+@media (max-width: 988px) {
+    #footer-font {
+      font-size: 10px;
+    }
+}

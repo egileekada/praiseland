@@ -3,15 +3,13 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import '../styles.css';
 import { NavLink } from 'react-router-dom'
-// import Home from '../Screens/home'
-// import gallery from '../Screens/Gallery'
 
 export default class imageslider extends React.Component {
 
   render(){
     return(
           <Navbar fixed='top' collapseOnSelect expand="lg" bg="transparent" style={{height: '65px', width: '100%', position:'absolute'}} >
-            <Navbar.Brand href="#home" id='font' >
+            <Navbar.Brand href="#home" >
                     <img
                       alt=""
                       src= {require('../Image/logo.png')}
