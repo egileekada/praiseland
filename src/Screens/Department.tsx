@@ -83,7 +83,7 @@ class Department extends React.Component<any, any, any> {
                                 <div className='department_footer ' >
                                     <h5 className='font-bold font-serif' style={{margin: '20px'}} >Prayer Band</h5>
                                     <p style={{color:'gray'}} >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio laboriosam, aut quidem ratione iste, recusandae, consequatur consectetur iure maiores aperiam sequi perspiciatis facere dicta aliquam quam in id neque. Dolor.</p>
-                                    <Button className='font-bold font-serif' style={{width: '120px', margin:'25px'}} variant="secondary">Call</Button> 
+                                    <Button className='font-bold font-serif' style={{width: '120px', margin:'25px'}} href='tel: 07030697459' variant="secondary">Call</Button> 
                                 </div>
                             </div>                            
                         </div>
@@ -96,7 +96,7 @@ class Department extends React.Component<any, any, any> {
                                 <div className='department_footer ' >
                                     <h5 className='font-bold font-serif' style={{margin: '20px'}} >Prayer Band</h5>
                                     <p style={{color:'gray'}} >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio laboriosam, aut quidem ratione iste, recusandae, consequatur consectetur iure maiores aperiam sequi perspiciatis facere dicta aliquam quam in id neque. Dolor.</p>
-                                    <Button className='font-bold font-serif' style={{width: '120px', margin:'25px'}} variant="secondary">Call</Button> 
+                                    <Button className='font-bold font-serif' style={{width: '120px', margin:'25px'}} href='tel: 07030697459' variant="secondary">Call</Button> 
                                 </div>
                             </div>                            
                         </div>
@@ -108,7 +108,7 @@ class Department extends React.Component<any, any, any> {
                                 <div className='department_footer ' >
                                     <h5 className='font-bold font-serif' style={{margin: '20px'}} >Prayer Band</h5>
                                     <p style={{color:'gray'}} >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio laboriosam, aut quidem ratione iste, recusandae, consequatur consectetur iure maiores aperiam sequi perspiciatis facere dicta aliquam quam in id neque. Dolor.</p>
-                                    <Button className='font-bold font-serif' style={{width: '120px', margin:'25px'}} variant="secondary">Call</Button> 
+                                    <Button className='font-bold font-serif' style={{width: '120px', margin:'25px'}} href='tel: 07030697459' variant="secondary">Call</Button> 
                                 </div>
                             </div>                            
                         </div>
@@ -120,7 +120,7 @@ class Department extends React.Component<any, any, any> {
                                 <div className='department_footer ' >
                                     <h5 className='font-bold font-serif' style={{margin: '20px'}} >Prayer Band</h5>
                                     <p style={{color:'gray'}} >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio laboriosam, aut quidem ratione iste, recusandae, consequatur consectetur iure maiores aperiam sequi perspiciatis facere dicta aliquam quam in id neque. Dolor.</p>
-                                    <Button className='font-bold font-serif' style={{width: '120px', margin:'25px'}} variant="secondary">Call</Button> 
+                                    <Button className='font-bold font-serif' style={{width: '120px', margin:'25px'}} href='tel: 07030697459' variant="secondary">Call</Button> 
                                 </div>
                             </div>                            
                         </div>
