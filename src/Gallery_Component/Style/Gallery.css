@@ -1,5 +1,6 @@
 .gallery {
     background-color: white;
+    height: 300px;
     /* padding: 10px; */
     margin-top: 20px;
     margin-left: 10px;
@@ -54,9 +55,10 @@ label:hover{
     align-items: center;
     margin-top: 30px
 }
-@media (max-width: 312px) {
+@media (max-width: 820px) {
     .gallery{
-      border-radius: 10px;
+        height: 250px;
+      border-radius: 5px;
       margin-top: 20px;
       margin-left: 20px;
       margin-right: 20px;

@@ -13,9 +13,9 @@ return (
     <Container fluid>
       <Row id='center' style={{marginBottom: '40px', marginTop: '40px'}} >
       {docs && docs.slice(0, 5).map((doc: { id: string | number | null | undefined; url: string | undefined; }) => (
-        <Col 
+        <Col sm='4' md='5' lg='3'
           className='gallery'
-          sm='5' md='5' lg='3' style={{backgroundImage: `url(${doc.url})`, width:'100%', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center', marginTop: '50px'}} 
+           style={{backgroundImage: `url(${doc.url})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center', marginTop: '50px'}} 
         // layout
         //   whileHover={{ opacity: 1 }}
           
