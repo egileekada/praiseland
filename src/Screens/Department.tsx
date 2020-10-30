@@ -40,13 +40,159 @@ const responsive = {
   }
 };
 
-
 // style={{height:'30%', display: 'flex', flexDirection: 'column', backgroundImage: `url(${pic})`, width:'100%', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', }}
 class Department extends React.Component<any, any, any> {
 
+
+    
     render(){
+        const arrs = [
+            {
+                index: 1,
+                img: require('../Image/1.jpg'),
+                depname: 'Redeemed volunteer',
+                name: 'Bro. Wilson',
+                description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusantium nihil asperiores odio vitae. Nihil, odit error! Quis commodi fuga recusandae. Voluptatum optio delectus exercitationem, ullam officia ut eligendi recusandae.',
+                number: '08057636389',
+            },
+            {
+                index: 2,
+                img: require('../Image/2.jpg'),
+                depname: 'Sanitation',
+                name: 'Bro. Oto.',
+                description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusantium nihil asperiores odio vitae. Nihil, odit error! Quis commodi fuga recusandae. Voluptatum optio delectus exercitationem, ullam officia ut eligendi recusandae.',
+                number: '08038700491',
+            },
+            {
+                index: 3,
+                img: require('../Image/3.jpg'),
+                depname: 'Chior',
+                name: 'Bro. Franklin Firstborn.',
+                description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusantium nihil asperiores odio vitae. Nihil, odit error! Quis commodi fuga recusandae. Voluptatum optio delectus exercitationem, ullam officia ut eligendi recusandae.',
+                number: '07011057211',
+            },
+            {
+                index: 4,
+                img: require('../Image/4.jpg'),
+                depname: 'Ushering',
+                name: "Dcn's. Rose Okowchi.",
+                description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusantium nihil asperiores odio vitae. Nihil, odit error! Quis commodi fuga recusandae. Voluptatum optio delectus exercitationem, ullam officia ut eligendi recusandae.',
+                number: '08066634027',
+            },
+            {
+                index: 5,
+                img: require('../Image/1.jpg'),
+                depname: 'Sunday School',
+                name: "Dcn's. Eka Evans",
+                description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusantium nihil asperiores odio vitae. Nihil, odit error! Quis commodi fuga recusandae. Voluptatum optio delectus exercitationem, ullam officia ut eligendi recusandae.',
+                number: '08132803150',
+            },
+            {
+                index: 6,
+                img: require('../Image/2.jpg'),
+                depname: 'House Fellowship',
+                name: "Dcn's. Emmanuel Ndifreke",
+                description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusantium nihil asperiores odio vitae. Nihil, odit error! Quis commodi fuga recusandae. Voluptatum optio delectus exercitationem, ullam officia ut eligendi recusandae.',
+                number: '08169115197',
+            },
+            {
+                index: 7,
+                img: require('../Image/3.jpg'),
+                depname: 'Evangelism',
+                name: 'Sis. Stella D.',
+                description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusantium nihil asperiores odio vitae. Nihil, odit error! Quis commodi fuga recusandae. Voluptatum optio delectus exercitationem, ullam officia ut eligendi recusandae.',
+                number: '07063045933',
+            },
+            {
+                index: 8,
+                img: require('../Image/4.jpg'),
+                depname: 'Follow-Up',
+                name: 'Dcn. Abraham U.',
+                description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusantium nihil asperiores odio vitae. Nihil, odit error! Quis commodi fuga recusandae. Voluptatum optio delectus exercitationem, ullam officia ut eligendi recusandae.',
+                number: '08039566443',
+            },
+            {
+                index: 9,
+                img: require('../Image/1.jpg'),
+                depname: 'Prayer Band',
+                name: "Dcn's Boma Jack",
+                description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusantium nihil asperiores odio vitae. Nihil, odit error! Quis commodi fuga recusandae. Voluptatum optio delectus exercitationem, ullam officia ut eligendi recusandae.',
+                number: '08030849221',
+            },
+            {
+                index: 10,
+                img: require('../Image/2.jpg'),
+                depname: 'Welfare',
+                name: "Dcn's Fiderikumo A.",
+                description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusantium nihil asperiores odio vitae. Nihil, odit error! Quis commodi fuga recusandae. Voluptatum optio delectus exercitationem, ullam officia ut eligendi recusandae.',
+                number: '08033365369',
+            },
+            {
+                index: 11,
+                img: require('../Image/3.jpg'),
+                depname: 'Family Affairs ',
+                name: 'Mummy Davies',
+                description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusantium nihil asperiores odio vitae. Nihil, odit error! Quis commodi fuga recusandae. Voluptatum optio delectus exercitationem, ullam officia ut eligendi recusandae.',
+                number: '08069058738',
+            },
+            {
+                index: 12,
+                img: require('../Image/4.jpg'),
+                depname: 'Maintenance',
+                name: 'Bro. Robinson',
+                description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusantium nihil asperiores odio vitae. Nihil, odit error! Quis commodi fuga recusandae. Voluptatum optio delectus exercitationem, ullam officia ut eligendi recusandae.',
+                number: '07039452722',
+            },
+            {
+                index: 13,
+                img: require('../Image/1.jpg'),
+                depname: 'Media',
+                name: 'Bro. Olayinka',
+                description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusantium nihil asperiores odio vitae. Nihil, odit error! Quis commodi fuga recusandae. Voluptatum optio delectus exercitationem, ullam officia ut eligendi recusandae.',
+                number: '08056090045',
+            },
+            {
+                index: 14,
+                img: require('../Image/2.jpg'),
+                depname: 'Technical',
+                name: 'Bro. Prince Firstborn',
+                description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusantium nihil asperiores odio vitae. Nihil, odit error! Quis commodi fuga recusandae. Voluptatum optio delectus exercitationem, ullam officia ut eligendi recusandae.',
+                number: '08064808190',
+            },
+            {
+                index: 15,
+                img: require('../Image/3.jpg'),
+                depname: 'ICT',
+                name: 'Dcn. IDEZI Emmanuel',
+                description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusantium nihil asperiores odio vitae. Nihil, odit error! Quis commodi fuga recusandae. Voluptatum optio delectus exercitationem, ullam officia ut eligendi recusandae.',
+                number: '07037001661',
+            }
+        ]; 
+
+        const listItems = arrs.map((arr: any) =>
+
+            <div className= 'department' key={arr.index} >
+                <div >
+                    <div className='department_header' id='center' >
+                        <img src= {arr.img} alt='' />
+                    </div>
+                    <div className='department_footer ' >
+                        <h3 className='font-Poppinsbold text-2xl' style={{margin: '20px'}} >{arr.depname}</h3>
+                        <div style={{display:'flex', flexDirection: 'column'}} >
+                            <h5 className='font-Poppinsbold text-lg'>Head Of Department</h5>
+                            <p className='font-bold  font-Poppins'>{arr.name}</p>
+                        </div>
+                        <div style={{width:'100%', padding: '10px'}}>
+                            <h6 className='font-Poppinsbold text-lg'>Description</h6>
+                            <p style={{textAlign: 'center', marginTop:'10px'}} className='font-Poppins text-md'>{arr.description}</p>
+                        </div>
+                        <Button className='font-bold font-Poppinsbold' style={{width: '120px', margin:'25px'}} href='tel: 07030697459' variant="secondary">Call</Button> 
+                    </div>
+                </div>
+            </div>
+        );
         return(
-            <div style={{backgroundColor:'white'}} >
+            <div style={{backgroundColor:'rgba(187, 181, 181, 0.61)'}} >
                 <header>
                 <Navbar fixed='top' style={{ height: '65px', width: '100%', position: 'absolute', backgroundColor: 'transparent'}} >
                     <Navigate />
@@ -74,56 +220,7 @@ class Department extends React.Component<any, any, any> {
                         dotListClass="custom-dot-list-style"
                         itemClass='carousel-item-padding-10-px'>
 
-                        <div className= 'department'  >
-                            <div >
-                                <div className='department_header' id='center' >
-                                    <img src= {require('../Image/4.jpg')} alt='' />
-                                </div>
-                                <div className='department_footer ' >
-                                    <h5 className='font-bold font-serif' style={{margin: '20px'}} >Prayer Band</h5>
-                                    <p style={{color:'gray'}} >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio laboriosam, aut quidem ratione iste, recusandae, consequatur consectetur iure maiores aperiam sequi perspiciatis facere dicta aliquam quam in id neque. Dolor.</p>
-                                    <Button className='font-bold font-serif' style={{width: '120px', margin:'25px'}} href='tel: 07030697459' variant="secondary">Call</Button> 
-                                </div>
-                            </div>                            
-                        </div>
-
-                        <div className= 'department' >
-                            <div >
-                                <div className='department_header' id='center' >
-                                    <img src= {require('../Image/1.jpg')} alt='' />
-                                </div>
-                                <div className='department_footer ' >
-                                    <h5 className='font-bold font-serif' style={{margin: '20px'}} >Prayer Band</h5>
-                                    <p style={{color:'gray'}} >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio laboriosam, aut quidem ratione iste, recusandae, consequatur consectetur iure maiores aperiam sequi perspiciatis facere dicta aliquam quam in id neque. Dolor.</p>
-                                    <Button className='font-bold font-serif' style={{width: '120px', margin:'25px'}} href='tel: 07030697459' variant="secondary">Call</Button> 
-                                </div>
-                            </div>                            
-                        </div>
-                        <div className= 'department' >
-                            <div >
-                                <div className='department_header' id='center' >
-                                    <img src= {require('../Image/3.jpg')} alt='' />
-                                </div>
-                                <div className='department_footer ' >
-                                    <h5 className='font-bold font-serif' style={{margin: '20px'}} >Prayer Band</h5>
-                                    <p style={{color:'gray'}} >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio laboriosam, aut quidem ratione iste, recusandae, consequatur consectetur iure maiores aperiam sequi perspiciatis facere dicta aliquam quam in id neque. Dolor.</p>
-                                    <Button className='font-bold font-serif' style={{width: '120px', margin:'25px'}} href='tel: 07030697459' variant="secondary">Call</Button> 
-                                </div>
-                            </div>                            
-                        </div>
-                        <div className= 'department' >
-                            <div >
-                                <div className='department_header' id='center' >
-                                    <img src= {require('../Image/2.jpg')} alt='' />
-                                </div>
-                                <div className='department_footer ' >
-                                    <h5 className='font-bold font-serif' style={{margin: '20px'}} >Prayer Band</h5>
-                                    <p style={{color:'gray'}} >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio laboriosam, aut quidem ratione iste, recusandae, consequatur consectetur iure maiores aperiam sequi perspiciatis facere dicta aliquam quam in id neque. Dolor.</p>
-                                    <Button className='font-bold font-serif' style={{width: '120px', margin:'25px'}} href='tel: 07030697459' variant="secondary">Call</Button> 
-                                </div>
-                            </div>                            
-                        </div>
-                        
+                            {listItems}
 
                     </Carousel>
 
@@ -134,3 +231,32 @@ class Department extends React.Component<any, any, any> {
 }
 
 export default Department
+
+// function data() {
+//     const arrs = [
+//         {
+//             index: 1,
+//             img: require('../Image/1.jpg'),
+//             name: 'jame',
+//             number: '07030697459',
+//         },
+//         {
+//             index: 2,
+//             img: require('../Image/2.jpg'),
+//             name: 'jame',
+//             number: '07030697459',
+//         },
+//         {
+//             index: 3,
+//             img: require('../Image/3.jpg'),
+//             name: 'jame',
+//             number: '07030697459',
+//         }
+//     ];
+//     const listItems = arrs.map((arr: any) =>
+//             <div key={arr.index}>
+//                 <h3>{arr.name}</h3>
+//                 <Button className='font-bold font-serif' style={{width: '120px', margin:'25px'}} href='tel: +{arr.number}' variant="secondary">Call</Button>
+//             </div>
+//         );
+// }

@@ -21,7 +21,7 @@ export default class imageslider extends React.Component<any, any, any> {
     count: number = 0;
     arr = [
         {
-            img: require('../Image/1.jpg'),
+            img: require('../Image/church.jpeg'),
             header: 'Welcome to R.C.C.G Praise Land Parish Eagle Island',
             body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.',
         },
