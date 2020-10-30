@@ -13,7 +13,7 @@ return (
     <Container fluid>
       <Row id='center' style={{marginBottom: '40px', marginTop: '40px'}} >
       {docs && docs.slice(0, 5).map((doc: { id: string | number | null | undefined; url: string | undefined; }) => (
-        <Col sm='4' md='5' lg='3'
+        <Col sm='9' md='5' lg='3'
           className='gallery'
            style={{backgroundImage: `url(${doc.url})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center', marginTop: '50px'}} 
         // layout

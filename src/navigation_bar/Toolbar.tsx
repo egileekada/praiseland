@@ -47,7 +47,7 @@ function Toolbar (props:any ){
               
               <Modal show={show} onHide={handleClose} centered >
                 <Modal.Header closeButton>
-                  <Modal.Title className='font-bold font-Poppinsbold text-2xl' >
+                  <Modal.Title className='font-Poppinsbold text-2xl' >
                     Online Giving
                   </Modal.Title>
                 </Modal.Header>

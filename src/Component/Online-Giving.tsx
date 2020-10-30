@@ -45,7 +45,7 @@ function Online_Giving(){
                         button if the copy command exists */
                         document.queryCommandSupported('copy') &&
                         <div>
-                            <button style={{marginLeft:'60px', marginRight: '10px'}} className='font-Poppinsbold' onClick={offering}>Copy</button> 
+                            <button style={{marginLeft:'40px', marginRight: '10px'}} className='font-Poppinsbold' onClick={offering}>Copy</button> 
                             {copySuccess}
                         </div>
                     }         
@@ -69,7 +69,7 @@ function Online_Giving(){
                         button if the copy command exists */
                     document.queryCommandSupported('copy') &&
                     <div>
-                        <button className='font-Poppinsbold' style={{marginLeft:'60px', marginRight: '10px'}} onClick={tithe}>Copy</button> 
+                        <button className='font-Poppinsbold' style={{marginLeft:'40px', marginRight: '10px'}} onClick={tithe}>Copy</button> 
                         {copySuccess2}
                     </div>
                     }

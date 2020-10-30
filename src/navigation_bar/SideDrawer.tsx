@@ -39,7 +39,7 @@ const SideDrawer = (props: any) => {
 
         <div onClick={props.click} >
           <div  className='font-Poppins text-md font-bold drawerlist' onClick={handleShow} >        
-            <IoMdCard style={{marginLeft:'20px'}} className='icon' />
+            <IoMdCard style={{marginLeft:'20px'}} className=' icon' />
             Online Giving
           </div>    
         </div>
@@ -77,7 +77,7 @@ const SideDrawer = (props: any) => {
       
         <Modal show={show} onHide={handleClose} centered >
             <Modal.Header closeButton>
-              <Modal.Title className='font-bold font-serif'>
+              <Modal.Title className='font-Poppinsbold text-2xl'>
                 Online Giving
               </Modal.Title>
             </Modal.Header>
@@ -85,7 +85,7 @@ const SideDrawer = (props: any) => {
               <Dialog />
             </Modal.Body>
             <Modal.Footer>
-              <Button onClick={handleClose} variant="secondary">Close</Button>                              
+              <Button className='font-bold font-Poppinsbold'  onClick={handleClose} variant="secondary">Close</Button>                              
             </Modal.Footer>
           </Modal>
 
