@@ -31,23 +31,23 @@ function Toolbar (props:any ){
               style={{marginLeft: '30px', marginRight: '10px', marginTop: '-5px'}}
             /></NavLink>
             <div style={{flexDirection: 'column', display:'flex', alignItems: 'center', marginLeft:'1px'}}>
-                <span className='font-bold font-serif text-white' id='logo'>Praise Land Parish</span>
-                <span id='logo' className='font-serif' style={{marginTop:'-5px', fontSize: '13px', letterSpacing: '4px' }}>Eagle Island</span>
+                <span className='font-bold font-Poppinsbold text-white' id='logo'>Praise Land Parish</span>
+                <span id='logo' className='font-Poppins' style={{marginTop:'-5px', fontSize: '13px', letterSpacing: '4px' }}>Eagle Island</span>
             </div>
         </div>
         <div className="spacer" />
         <div className="toolbar__navigation-items">
           <ul>
             <li>
-              <NavLink exact activeStyle={{color: 'white' }} id='border' className='font-bold hover:text-green-400 '  to="/">Home </NavLink>
-              <NavLink exact activeStyle={{color: 'white' }} style={{textDecoration: 'none'}} className='hover:text-white indicator' to="/">__</NavLink>
+              <NavLink exact activeStyle={{color: 'white' }} id='border' className='font-bold font-lato hover:text-green-400 '  to="/">Home </NavLink>
+              <NavLink exact activeStyle={{color: 'white' }} style={{textDecoration: 'none'}} className='hover:text-white font-lato indicator' to="/">__</NavLink>
             </li>
             <li>
-            <div onClick={handleShow} style={{ fontSize: '14px',marginTop: '5px', cursor: 'pointer', color: 'white'}} className='font-white font-bold hover:text-green-400 ' >Online Giving</div>
+            <div onClick={handleShow} style={{ fontSize: '14px',marginTop: '5px', cursor: 'pointer', color: 'white'}} className='font-white font-bold font-lato hover:text-green-400 ' >Online Giving</div>
               
               <Modal show={show} onHide={handleClose} centered >
                 <Modal.Header closeButton>
-                  <Modal.Title className='font-bold font-serif' >
+                  <Modal.Title className='font-bold font-Poppinsbold text-2xl' >
                     Online Giving
                   </Modal.Title>
                 </Modal.Header>
@@ -55,26 +55,26 @@ function Toolbar (props:any ){
                   <Dialog />
                 </Modal.Body>
                 <Modal.Footer>
-                  <Button onClick={handleClose} className='font-bold font-serif' variant="secondary">Close</Button>                              
+                  <Button onClick={handleClose} className='font-bold font-Poppinsbold' variant="secondary">Close</Button>                              
                 </Modal.Footer>
               </Modal>
             
             </li>
             <li>
-              <NavLink activeStyle={{color: 'white'}} id='border' className='font-bold hover:text-green-200' to="/gallery" >Photo Gallery</NavLink>
-              <NavLink exact activeStyle={{color: 'white' }} style={{textDecoration: 'none'}} className='hover:text-white indicator' to="/gallery">____</NavLink>
+              <NavLink activeStyle={{color: 'white'}} id='border' className='font-bold font-lato hover:text-green-200' to="/gallery" >Photo Gallery</NavLink>
+              <NavLink exact activeStyle={{color: 'white' }} style={{textDecoration: 'none'}} className=' hover:text-white font-lato indicator' to="/gallery">____</NavLink>
             </li>
             <li>
-              <NavLink activeStyle={{color: 'white'}} id='border' className='font-bold hover:text-green-200 ' to="/pastor" >Pastors Corner</NavLink>
-              <NavLink exact activeStyle={{color: 'white' }} style={{textDecoration: 'none'}} className='hover:text-white indicator' to="/pastor">____</NavLink>
+              <NavLink activeStyle={{color: 'white'}} id='border' className='font-bold font-lato hover:text-green-200 ' to="/pastor" >Pastors Corner</NavLink>
+              <NavLink exact activeStyle={{color: 'white' }} id='indicate' style={{textDecoration: 'none'}} className='hover:text-white font-lato indicator' to="/pastor">____</NavLink>
             </li>
             <li>
-              <NavLink activeStyle={{color: 'white'}} id='border' className='font-bold hover:text-green-200 ' to="/about" >About</NavLink>
-              <NavLink exact activeStyle={{color: 'white' }} style={{textDecoration: 'none'}} className='hover:text-white indicator' to="/about">__</NavLink>
+              <NavLink activeStyle={{color: 'white'}} id='border' className='font-bold font-lato hover:text-green-200 ' to="/about" >About</NavLink>
+              <NavLink exact activeStyle={{color: 'white' }} style={{textDecoration: 'none'}} className='hover:text-white font-lato indicator' to="/about">__</NavLink>
             </li>
             <li>
-              <NavLink exact activeStyle={{backgroundColor:'transparent' }} className="bg-green-500 hover:text-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded" id='border'  to="/department" >Department</NavLink>
-              <NavLink exact activeStyle={{color: 'white'  }} style={{textDecoration: 'none'}} className='hover:text-transparent indicator' to="/department">____</NavLink>
+              <NavLink exact activeStyle={{backgroundColor:'transparent' }} className="bg-green-500 font-lato hover:text-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded" id='border'  to="/department" >Department</NavLink>
+              <NavLink exact activeStyle={{color: 'white'  }} style={{textDecoration: 'none'}} className='hover:text-transparent font-lato indicator' to="/department">____</NavLink>
             </li>
           </ul>
           

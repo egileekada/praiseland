@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Navigate from '../Component/WhiteNavbar'
-// import UploadForm from '../Gallery_Component/UploadForm';
 import ImageGrid from '../Gallery_Component/ImageGrid';
 import Modal from 'react-bootstrap/Modal'
 
@@ -11,7 +10,7 @@ function App() {
   const [modalShow, setModalShow] = React.useState(false);
 
   return (
-    <div className="App">
+    <div>
 
         <Navbar sticky='top' bg="white" style={{height: '65px', width: '100%', position: 'fixed', marginBottom: '60px'}} >
             <Navigate />

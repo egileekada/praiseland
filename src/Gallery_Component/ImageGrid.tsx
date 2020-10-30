@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col' 
 // import Modal from 'react-bootstrap/Modal'
-import '../styles.css';
+import './Style/Styles.css';
 
 const ImageGrid = ({ setSelectedImg } : any) => {
   const { docs }: any = useFirestore('images');

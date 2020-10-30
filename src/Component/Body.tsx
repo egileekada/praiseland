@@ -15,9 +15,9 @@ function Body(){
       <Container fluid >
 
         <div  style={{display: 'flex', flexDirection: 'column' }} id='center'>
-          <Col xs={12} md={9} lg={6} style={{display: 'flex', flexDirection: 'column', padding:'20px' }} id='center' >
-            <h3 className='font-bold text-2xl lg:text-3xl'> Upcoming Events </h3>
-            <p style={{textAlign:'center'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+          <Col xs={12} md={9} lg={6} style={{display: 'flex', flexDirection: 'column', padding:'10px' }} id='center' >
+            <h3 className='font-Poppinsbold text-2xl lg:text-3xl'> Upcoming Events </h3>
+            <p className='font-lato' style={{textAlign:'center'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
           </Col>
         </div>
 
@@ -31,8 +31,8 @@ function Body(){
 
           <div  style={{display: 'flex', flexDirection: 'column' }} id='center'>
             <Col xs={12} md={9} lg={6} style={{display: 'flex', flexDirection: 'column', padding:'20px' }} id='center' >
-              <h3 className='font-bold text-2xl lg:text-3xl'> Past Events </h3>
-              <p style={{textAlign:'center'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+              <h3 className='font-Poppinsbold text-2xl lg:text-3xl'> Past Events </h3>
+              <p className='font-lato'  style={{textAlign:'center'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
             </Col>
           </div>
 
@@ -43,8 +43,8 @@ function Body(){
                 <MdEventAvailable style={{width: '40px', height:'40px', marginTop:'20px'}} />
               </div>
               <div className='past_event'  > 
-                <h4 className='font-bold text-xl lg:text-2xl' >July HolyGhost Service</h4>
-                <p style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
+                <h4 className='font-Poppinsbold text-xl lg:text-2xl' >July HolyGhost Service</h4>
+                <p className='font-lato'  style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
               </div>
             </div>
           </Col>
@@ -54,8 +54,8 @@ function Body(){
                 <MdEventAvailable style={{width: '40px', height:'40px', marginTop:'20px'}} />
               </div>
               <div className='past_event' > 
-                <h4 className='font-bold text-xl lg:text-2xl' >July HolyGhost Service</h4>
-                <p style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
+                <h4 className='font-Poppinsbold text-xl lg:text-2xl' >July HolyGhost Service</h4>
+                <p className='font-lato'  style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
               </div>
             </div>
           </Col>
@@ -65,8 +65,8 @@ function Body(){
                 <MdEventAvailable style={{width: '40px', height:'40px', marginTop:'20px'}} />
               </div>
               <div className='past_event'> 
-                <h4 className='font-bold text-xl lg:text-2xl' >July HolyGhost Service</h4>
-                <p style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
+                <h4 className='font-Poppinsbold text-xl lg:text-2xl' >July HolyGhost Service</h4>
+                <p className='font-lato'  style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
               </div>
             </div>
           </Col>
@@ -76,8 +76,8 @@ function Body(){
                 <MdEventAvailable style={{width: '40px', height:'40px', marginTop:'20px'}} />
               </div>
               <div className='past_event' > 
-                <h4 className='font-bold text-xl lg:text-2xl' >July HolyGhost Service</h4>
-                <p style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
+                <h4 className='font-Poppinsbold text-xl lg:text-2xl' >July HolyGhost Service</h4>
+                <p className='font-lato'  style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
               </div>
             </div>
           </Col>
@@ -93,8 +93,8 @@ function Body(){
       <Container fluid>
           <div  style={{display: 'flex', flexDirection: 'column' }} id='center'>
             <Col xs={12} md={9} lg={6} style={{display: 'flex', flexDirection: 'column', padding:'20px' }} id='center' >
-              <h3 className='font-bold text-2xl lg:text-3xl'> Testimonies </h3>
-              <p style={{textAlign:'center'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+              <h3 className='font-Poppinsbold text-2xl lg:text-3xl'> Testimonies </h3>
+              <p className='font-lato' style={{textAlign:'center'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
             </Col>
           </div>
         
@@ -102,39 +102,39 @@ function Body(){
       
           <Col xs={10} md={5} lg={3} id='testimony' >
             <div >
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, laudantium?</p>
+              <p className='font-lato' >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, laudantium?</p>
 
               <div style={{display:'flex', flexDirection:'row', position: 'absolute', bottom: '20px'}} >
                 <div style={{height: '50px', width: '50px', borderRadius:'40px', backgroundColor: 'gray' }} ></div>
                 <div style={{marginLeft:'15px', flexDirection:'column', display:'flex', alignItems: 'center', marginTop:'5px' }} >
-                  <h6>Name</h6>
-                  <p style={{marginTop:'-10px'}} >5 hours ago</p>
+                  <h6 className='font-lato'>Name</h6>
+                  <p className='font-lato' style={{marginTop:'-10px'}} >5 hours ago</p>
                 </div>
               </div>
             </div>
           </Col>
           <Col xs={10} md={5} lg={3} id='testimony'>
             <div >
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, laudantium?</p>
+              <p className='font-lato'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, laudantium?</p>
 
               <div style={{display:'flex', flexDirection:'row', position: 'absolute', bottom: '20px'}} >
                 <div style={{height: '50px', width: '50px', borderRadius:'40px', backgroundColor: 'gray' }} ></div>
                 <div style={{marginLeft:'15px', flexDirection:'column', display:'flex', alignItems: 'center', marginTop:'5px' }} >
-                  <h6>Name</h6>
-                  <p style={{marginTop:'-10px'}} >5 hours ago</p>
+                  <h6 className='font-lato'>Name</h6>
+                  <p className='font-lato' style={{marginTop:'-10px'}} >5 hours ago</p>
                 </div>
               </div>
             </div>
           </Col>
           <Col xs={10} md={5} lg={3} id='testimony'>
             <div >
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, laudantium?</p>
+              <p className='font-lato'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, laudantium?</p>
 
               <div style={{display:'flex', flexDirection:'row', position: 'absolute', bottom: '20px'}} >
                 <div style={{height: '50px', width: '50px', borderRadius:'40px', backgroundColor: 'gray' }} ></div>
                 <div style={{marginLeft:'15px', flexDirection:'column', display:'flex', alignItems: 'center', marginTop:'5px' }} >
-                  <h6>Name</h6>
-                  <p style={{marginTop:'-10px'}} >5 hours ago</p>
+                  <h6 className='font-lato'>Name</h6>
+                  <p className='font-lato' style={{marginTop:'-10px'}} >5 hours ago</p>
                 </div>
               </div>
             </div>
@@ -142,9 +142,9 @@ function Body(){
         </Row>
       </Container>
 
-      <div id='center' style={{width: '100%', height: '500px' ,  backgroundColor: 'blueviolet', padding:'40px' }}>
-        <div id='center' style={{width: '100%', height:'100%', border:'2px solid white', padding: '50px', borderRadius:'30px'}} >
-          <p style={{fontSize:'20px', textAlign:'center', color: 'white'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, nam! Facere obcaecati illo quia quos libero? Quae amet autem a voluptas cum reiciendis.</p>
+      <div id='center' style={{width: '100%', height: '500px' ,  backgroundColor: 'blue' }}>
+        <div id='center' style={{width: '100%', height:'400px', borderLeft:'2px solid white', borderBottom: '2px solid white' ,  borderRadius:'30px', margin: '30px', paddingLeft: '20px', paddingRight: '20px'}} >
+          <p className='font-lato' style={{fontSize:'20px', textAlign:'left', color: 'white'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, nam! Facere obcaecati illo quia quos libero? Quae amet autem a voluptas cum reiciendis.</p>
         </div>
       </div>
  

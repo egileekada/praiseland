@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 import { MdKeyboardArrowUp } from "react-icons/md";
 
-import '../styles.css';
+import './Style/Screens.css';
 
 
 const Home = () =>{

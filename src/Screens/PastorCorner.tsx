@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Navbar from 'react-bootstrap/Navbar';
-import '../styles.css';
+import './Style/Screens.css';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -27,7 +27,7 @@ function PastorCorner() {
                     </Row>
                 </Container>
             </div>
-            <div style={{ display: 'flex', flexDirection:'row', backgroundColor: 'grey', justifyContent:'center', width:'100%', height:'40px', alignItems: 'center', bottom: '-4px', position: 'fixed'}}>
+            <div id='footer-containers'>
                 <p className='font-bold' id='footer-font' >2020 RCCG PLP. All Rights Reserved.</p>
                 <p className='font-bold shift' id='footer-font'>Privacy Policy </p>
                 <p className='font-bold sec_shift' id='footer-font' >Terms of Service</p>

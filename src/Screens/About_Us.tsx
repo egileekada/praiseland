@@ -3,11 +3,7 @@ import React from 'react'
 import image from '../Image/4.jpg'
 import Navigate from '../Component/Navigation'
 import Navbar from 'react-bootstrap/Navbar';
-// import Container from 'react-bootstrap/Container'
-// import Row from 'react-bootstrap/Row'
-// import Col from 'react-bootstrap/Col'
-
-import '../styles.css';
+import './Style/Screens.css';
 
 function About_Us (){
     return(

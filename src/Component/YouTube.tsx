@@ -14,7 +14,7 @@ class Youtube extends React.Component {
     }
     
     return (
-        <div className='video'>
+        <div style={{height: '100%', width: '100%'}}>
             <YouTube 
                 videoId={BASE_EMBED_URL} 
                 opts={opts}

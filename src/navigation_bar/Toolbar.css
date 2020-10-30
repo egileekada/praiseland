@@ -60,6 +60,17 @@
     align-items: center;
     flex-direction: column;
 }
+#logo{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px #0700008a ;
+  }
+  #whitelogo{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+  }
 @media (max-width: 988px) {
     .toolbar__navigation-items{
         display: none;
@@ -113,6 +124,11 @@
     letter-spacing: -1px;
     background-color: transparent;
 }
+a {
+    padding: 10px;
+    font-size: 14px;
+    font-style: unset;
+  }
 div.indicator:active{
     background-color: white;
 }

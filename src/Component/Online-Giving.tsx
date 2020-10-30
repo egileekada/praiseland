@@ -28,48 +28,48 @@ function Online_Giving(){
     return(
         <div style={{ marginTop:'10px', display:'flex', justifyContent:'center', alignItems: 'center', flexDirection: 'column' }}  >
 
-            <h6 className='font-bold font-serif' >Offering</h6>
-            <div >
+            <h6 className='font-bold font-Poppinsbold text-xl' >Offering</h6>
+            <div style={{ display:'flex', justifyContent:'center', alignItems: 'center', flexDirection: 'column' }}>
                 
-                <p className='font-bold font-serif' >Account Name</p>
+                <p className='font-bold font-Poppinsbold text-md' >Account Name</p>
 
                 <div style={{display:'flex', flexDirection:'row', marginTop: '-5px' }} >
                     <textarea
                         ref={OfferingRef}
                         value='aaaaaaaaaa'
-                        className='font-bold font-serif'
-                        style={{height:'30px', width:'100px'}}
+                        className='font-Poppins '
+                        style={{height:'30px', width:'150px'}}
                     />
                     {
                         /* Logical shortcut for only displaying the 
                         button if the copy command exists */
                         document.queryCommandSupported('copy') &&
                         <div>
-                            <button style={{marginLeft:'20px', marginRight: '10px'}} className='font-bold font-serif' onClick={offering}>Copy</button> 
+                            <button style={{marginLeft:'60px', marginRight: '10px'}} className='font-Poppinsbold' onClick={offering}>Copy</button> 
                             {copySuccess}
                         </div>
                     }         
                 </div>
             </div >
 
-            <h6 className='font-bold font-serif' style={{marginTop: '20px'}} >Tithe</h6>
-            <div >
+            <h6 className='font-bold font-Poppinsbold text-xl' style={{marginTop: '20px'}} >Tithe</h6>
+            <div style={{ display:'flex', justifyContent:'center', alignItems: 'center', flexDirection: 'column' }} >
                 
-                <p className='font-bold font-serif' >Account Name</p>
+                <p className='font-bold font-Poppinsbold text-md' >Account Name</p>
                 
                 <div style={{display:'flex', flexDirection:'row', marginTop:'-5px' }} >
                 
                     <textarea
                     ref={TitheRef}
-                    value='xxxxxxxxxx'
-                    className='font-bold font-serif'
-                    style={{height:'30px', width:'100px'}}/>
+                    value='cccccccccc'
+                    className='font-Poppins'
+                    style={{height:'30px', width:'150px'}}/>
                     {
                     /* Logical shortcut for only displaying the 
                         button if the copy command exists */
                     document.queryCommandSupported('copy') &&
                     <div>
-                        <button className='font-bold font-serif' style={{marginLeft:'20px', marginRight: '10px'}} onClick={tithe}>Copy</button> 
+                        <button className='font-Poppinsbold' style={{marginLeft:'60px', marginRight: '10px'}} onClick={tithe}>Copy</button> 
                         {copySuccess2}
                     </div>
                     }

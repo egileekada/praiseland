@@ -1,7 +1,7 @@
 import React from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import '../styles.css';
+import './Styles/MultiSlides.css';
  
 const responsive = {
   desktop: {

@@ -1,10 +1,9 @@
 import React from 'react'
 
-import image from '../Image/1.jpg'
+import image from '../Image/2.jpg'
 import Navigate from '../Component/Navigation'
 import Navbar from 'react-bootstrap/Navbar';
-
-import '../styles.css';
+import './Style/Screens.css';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Button from 'react-bootstrap/Button'
@@ -47,21 +46,21 @@ class Department extends React.Component<any, any, any> {
 
     render(){
         return(
-            <div style={{backgroundColor:'rgba(187, 181, 181, 0.61)'}} >
+            <div style={{backgroundColor:'white'}} >
                 <header>
                 <Navbar fixed='top' style={{ height: '65px', width: '100%', position: 'absolute', backgroundColor: 'transparent'}} >
                     <Navigate />
                 </Navbar> 
                     <div className='image_container' style={{ backgroundImage:`url(${image})` }}>
-                        <h1>Department</h1>
+                        <h1 className='font-Poppinsbold text-white items-center text-xl lg:text-4xl xl:text-4xl ' style={{margin:'40px', textAlign:'center'}} >Departments Of RCCG Praise Land Parish Eagle Island</h1>
                     </div>
                 </header>
                 
                 <div id='center'>
-                    <h1 className='font-bold font-serif' >Department</h1>
+                    <h3 className='font-Poppinsbold text-black items-center text-2xl lg:text-4xl xl:text-4xl ' >Department</h3>
                 </div>
 
-                <div style={{marginTop:'50px', marginLeft:'20px', marginRight: '20px' }} >
+                <div style={{marginTop:'50px', marginLeft:'10px', marginRight: '10px' }} >
                     <Carousel
                         swipeable={true}
                         draggable={true}
@@ -75,7 +74,7 @@ class Department extends React.Component<any, any, any> {
                         dotListClass="custom-dot-list-style"
                         itemClass='carousel-item-padding-10-px'>
 
-                        <div className= 'department' >
+                        <div className= 'department'  >
                             <div >
                                 <div className='department_header' id='center' >
                                     <img src= {require('../Image/4.jpg')} alt='' />
