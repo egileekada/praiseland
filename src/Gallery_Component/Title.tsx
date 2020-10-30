@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles.css';
+import './Style/Gallery.css';
 
 const Title = () => {
   return (
