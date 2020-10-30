@@ -1,19 +1,12 @@
 import React from 'react';
 import useFirestore from '../hooks/useFirestore';
-// import { projectStorage } from '../firebase/config';
-// import { motion } from 'framer-motion';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col' 
-// import Modal from 'react-bootstrap/Modal'
+import Col from 'react-bootstrap/Col'
 import './Style/Gallery.css';
 
 const ImageGrid = ({ setSelectedImg } : any) => {
   const { docs }: any = useFirestore('images');
-
-  // const deleteimg = (props: any) => {
-    
-  // }
 
 return (
 
