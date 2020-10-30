@@ -15,7 +15,7 @@ return (
       {docs && docs.slice(0, 5).map((doc: { id: string | number | null | undefined; url: string | undefined; }) => (
         <Col 
           className='gallery'
-          sm='5' md='5' lg='3' style={{backgroundImage: `url(${doc.url})`, height:'300px', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center', marginTop: '50px'}} 
+          sm='5' md='5' lg='3' style={{backgroundImage: `url(${doc.url})`, width:'100%', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center', marginTop: '50px'}} 
         // layout
         //   whileHover={{ opacity: 1 }}
           
