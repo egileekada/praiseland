@@ -177,7 +177,7 @@ class Department extends React.Component<any, any, any> {
                         <img src= {arr.img} alt='' />
                     </div>
                     <div className='department_footer ' >
-                        <h3 className='font-Poppinsbold text-2xl' style={{margin: '20px'}} >{arr.depname}</h3>
+                        <h3 className='font-Poppinsbold text-xl' style={{margin: '10px'}} >{arr.depname}</h3>
                         <div style={{display:'flex', flexDirection: 'column'}} >
                             <h5 className='font-Poppinsbold text-lg'>Head Of Department</h5>
                             <p className='font-bold  font-Poppins'>{arr.name}</p>
@@ -192,13 +192,13 @@ class Department extends React.Component<any, any, any> {
             </div>
         );
         return(
-            <div style={{backgroundColor:'rgba(187, 181, 181, 0.61)'}} >
+            <div style={{backgroundColor:'white'}} >
                 <header>
                 <Navbar fixed='top' style={{ height: '65px', width: '100%', position: 'absolute', backgroundColor: 'transparent'}} >
                     <Navigate />
                 </Navbar> 
                     <div className='image_container' style={{ backgroundImage:`url(${image})` }}>
-                        <h1 className='font-Poppinsbold text-white items-center text-xl lg:text-4xl xl:text-4xl ' style={{margin:'40px', textAlign:'center'}} >Departments Of RCCG Praise Land Parish Eagle Island</h1>
+                        <h1 className='font-Poppinsbold text-white items-center text-xl lg:text-4xl xl:text-4xl' style={{margin:'40px', textAlign:'center', textShadow:'3px 3px #0700008a'}} >Departments Of RCCG Praise Land Parish Eagle Island</h1>
                     </div>
                 </header>
                 
