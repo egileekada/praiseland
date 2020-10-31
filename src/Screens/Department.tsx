@@ -186,7 +186,7 @@ class Department extends React.Component<any, any, any> {
                             <h6 className='font-Poppinsbold text-lg'>Description</h6>
                             <p style={{textAlign: 'center', marginTop:'10px'}} className='font-Poppins text-md'>{arr.description}</p>
                         </div>
-                        <Button className='font-bold font-Poppinsbold' style={{width: '120px', margin:'25px'}} href='tel: 07030697459' variant="secondary">Call</Button> 
+                        <Button className='font-bold font-Poppinsbold' style={{width: '120px', margin:'25px'}} href={'tel:'+ arr.number} variant="secondary">Call</Button> 
                     </div>
                 </div>
             </div>
