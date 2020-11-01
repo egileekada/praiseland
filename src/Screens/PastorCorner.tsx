@@ -21,9 +21,9 @@ function PastorCorner() {
                     <Row xs={12} md={5} lg={12} style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop:'50px'}} >
                         <Col xs={11} md={5} lg={5} className ='corner' style={{backgroundImage:`url(${img})`, backgroundPosition:'center', backgroundRepeat:'no-repeat', borderRadius:'10px'}} ></Col>
                         <Col id='center' xs={12} md={5} lg={5} className='cornertext' style={{flexDirection: "column",display: 'flex', alignItems: 'center'}} >
-                            <h3 className='font-Poppinsbold' style={{fontSize: '30px', marginTop:'5px'}}>Title</h3>
-                            <div className='flow'>
-                                <div id='center' style={{ backgroundColor:'blanchedalmond', borderRadius:'10px', padding: '20px', marginBottom: '60px'}}>
+                            <h3 className='font-Poppinsbold' style={{fontSize: '30px', marginTop:'10px', marginBottom: '30px'}}>Title</h3>
+                            <div style={{ backgroundColor:'blanchedalmond', borderRadius:'10px'}} className='flow'>
+                                <div id='center'  style={{ backgroundColor:'blanchedalmond', padding: '20px', marginTop: '-10px', }}>
                                     <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis libero dolore quae sit assumenda voluptas debitis officiis ipsa, temporibus, qui omnis eius ex quia officia. Nisi animi voluptatum quas tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptatum expedita consequuntur facere modi hic illum, necessitatibus ducimus deleniti perspiciatis ad, cum, dolore quisquam eum praesentium mollitia harum quam esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis libero dolore quae sit assumenda voluptas debitis officiis ipsa, temporibus, qui omnis eius ex quia officia. Nisi animi voluptatum quas tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptatum expedita consequuntur facere modi hic illum, necessitatibus ducimus deleniti perspiciatis ad, cum, dolore quisquam eum praesentium mollitia harum quam esse!</p>  
                                 </div>
                             </div>
