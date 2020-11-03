@@ -19,7 +19,7 @@ function Body(){
         <div  style={{display: 'flex', flexDirection: 'column' }} id='center'>
           <Col xs={12} md={9} lg={6} style={{display: 'flex', flexDirection: 'column', padding:'10px' }} id='center' >
             <h3 className='font-Poppinsbold text-2xl lg:text-3xl'> Upcoming Events </h3>
-            <p className='font-lato' style={{textAlign:'center'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            {/* <p className='font-lato' style={{textAlign:'center'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p> */}
           </Col>
         </div>
 
@@ -34,7 +34,7 @@ function Body(){
           <div  style={{display: 'flex', flexDirection: 'column' }} id='center'>
             <Col xs={12} md={9} lg={6} style={{display: 'flex', flexDirection: 'column', padding:'20px' }} id='center' >
               <h3 className='font-Poppinsbold text-2xl lg:text-3xl'> Past Events </h3>
-              <p className='font-lato'  style={{textAlign:'center'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+              {/* <p className='font-lato'  style={{textAlign:'center'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p> */}
             </Col>
           </div>
 
@@ -96,7 +96,7 @@ function Body(){
           <div  style={{display: 'flex', flexDirection: 'column' }} id='center'>
             <Col xs={12} md={9} lg={6} style={{display: 'flex', flexDirection: 'column', padding:'20px' }} id='center' >
               <h3 className='font-Poppinsbold text-2xl lg:text-3xl'> Testimonies </h3>
-              <p className='font-lato' style={{textAlign:'center'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+              {/* <p className='font-lato' style={{textAlign:'center'}} >Never silence your testimony. It's meant for someone else; not you.</p> */}
             </Col>
           </div>
         
