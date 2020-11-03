@@ -16,13 +16,14 @@
   display: flex;
   /* height: 50px; */
   flex-direction: row;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-right: 30px;
 }
 .info{
   background-color: #d0d0d0;
   /* height: 450px; */
   margin: 10px;
+
 }
 #footer-font{
     color: black;
