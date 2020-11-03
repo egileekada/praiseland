@@ -20,7 +20,7 @@ function PastorCorner() {
                 <Container fluid>
                     <Row xs={12} md={5} lg={12} style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop:'50px'}} >
                         <Col xs={11} md={5} lg={5} className ='corner' style={{backgroundImage:`url(${img})`, backgroundPosition:'center', backgroundRepeat:'no-repeat', borderRadius:'10px'}} ></Col>
-                        <Col id='center' xs={12} md={5} lg={5} className='cornertext' style={{flexDirection: "column",display: 'flex', alignItems: 'center'}} >
+                        <Col id='center' xs={12} md={5} lg={5} className='cornertext' style={{flexDirection: "column"}} >
                             <h3 className='font-Poppinsbold' style={{fontSize: '30px', marginTop:'10px', marginBottom: '30px'}}>Title</h3>
                             <div style={{ backgroundColor:'blanchedalmond', borderRadius:'10px'}} className='flow'>
                                 <div id='center'  style={{ backgroundColor:'blanchedalmond', padding: '20px', marginTop: '-10px', }}>

@@ -22,9 +22,11 @@ function About_Us (){
                     <h1 className=' font-Poppinsbold text-white items-center text-xl lg:text-4xl xl:text-4xl'  style={{textShadow:'3px 3px #0700008a'}} >About RCCG Praise Land Parish </h1>
                 </div>
             </div>
-            <Container fluid>
-                <Row xs={12} md={5} lg={12} style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom:'50px'}} >
-                    <Col style={{height:'100%', marginTop:'50px'}} xs={11} md={5} lg={5} >
+            <Container fluid style={{display: 'flex', justifyContent:'center', alignItems:'center', flexDirection:'column'}}>
+                <div><h1 className='font-Poppinsbold text-3xl' style={{marginTop: '50px'}} >About Us</h1></div>
+                <Row xs={12} md={5} lg={12} style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom:'30px'}} >
+                    
+                    <Col style={{height:'100%'}} xs={11} md={5} lg={5} >
                         <Row id='center' >
                             <Col xs={10} md={10} lg={10} className='about_main_img' >
                                 <img src={require('../Image/1.jpg')} style={{width:'100%', borderRadius: '7px'}} alt='' />
@@ -37,8 +39,7 @@ function About_Us (){
                             </Col>
                         </Row>
                     </Col>
-                    <Col id='center' xs={11} md={5} lg={5} style={{flexDirection:'column', marginBottom:'50px'}}>
-                        <h1 className='font-Poppinsbold text-2xl' >About Us</h1>
+                    <Col id='center' xs={11} md={5} lg={5} style={{flexDirection:'column', marginBottom:'20px', marginTop: '55px'}}>
                         <div style={{backgroundColor: 'blanchedalmond', marginTop:'20px', padding: '5px'}}>
                             <p className='font-lato' >The Redeemed Christian Church of God (RCCG), Praise Land Parish was planted in April 2001.<br/>
                                 Praise Land is located in plot 159, Redeemed Road Eagle Island Layout, Port Harcourt. Over time, the parish has grown from being a parish to area headquarters and then to zonal headquarters and currently a stand-alone Mega-Parish headed by an Assistant Pastor in charge of Rivers Province 9.<br/>
@@ -57,6 +58,11 @@ function About_Us (){
                         </div>
                     </Col>
                 </Row>
+                <div id='footer-container'>
+                    <p className='font-bold' id='footer-font' >2020 RCCG PLP. All Rights Reserved.</p>
+                    <p className='font-bold shift' id='footer-font'>Privacy Policy </p>
+                    <p className='font-bold sec_shift' id='footer-font'>Terms of Service</p>
+                </div>
             </Container>
 
         </div>

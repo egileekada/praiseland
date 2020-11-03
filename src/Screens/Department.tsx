@@ -225,6 +225,11 @@ class Department extends React.Component<any, any, any> {
                     </Carousel>
 
                 </div>
+                <div id='footer-container'>
+                    <p className='font-bold' id='footer-font' >2020 RCCG PLP. All Rights Reserved.</p>
+                    <p className='font-bold shift' id='footer-font'>Privacy Policy </p>
+                    <p className='font-bold sec_shift' id='footer-font'>Terms of Service</p>
+                </div>
             </div>
         )
     }

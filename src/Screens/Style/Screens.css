@@ -37,7 +37,7 @@
     color: #000;
     flex-direction: column;
     text-align: center;
-    box-shadow: 10px 10px rgba(187, 181, 181, 0.61);
+    /* box-shadow: 10px 10px rgba(187, 181, 181, 0.61); */
     border-left: #000 0.2px solid;
     border-right:  #000 0.2px solid;
     border-bottom:  #000 0.5px solid;
