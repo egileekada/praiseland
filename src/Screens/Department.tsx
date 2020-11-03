@@ -236,32 +236,3 @@ class Department extends React.Component<any, any, any> {
 }
 
 export default Department
-
-// function data() {
-//     const arrs = [
-//         {
-//             index: 1,
-//             img: require('../Image/1.jpg'),
-//             name: 'jame',
-//             number: '07030697459',
-//         },
-//         {
-//             index: 2,
-//             img: require('../Image/2.jpg'),
-//             name: 'jame',
-//             number: '07030697459',
-//         },
-//         {
-//             index: 3,
-//             img: require('../Image/3.jpg'),
-//             name: 'jame',
-//             number: '07030697459',
-//         }
-//     ];
-//     const listItems = arrs.map((arr: any) =>
-//             <div key={arr.index}>
-//                 <h3>{arr.name}</h3>
-//                 <Button className='font-bold font-serif' style={{width: '120px', margin:'25px'}} href='tel: +{arr.number}' variant="secondary">Call</Button>
-//             </div>
-//         );
-// }

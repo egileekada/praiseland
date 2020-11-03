@@ -58,13 +58,13 @@ function About_Us (){
                         </div>
                     </Col>
                 </Row>
+                
+            </Container>
                 <div id='footer-container'>
                     <p className='font-bold' id='footer-font' >2020 RCCG PLP. All Rights Reserved.</p>
                     <p className='font-bold shift' id='footer-font'>Privacy Policy </p>
                     <p className='font-bold sec_shift' id='footer-font'>Terms of Service</p>
                 </div>
-            </Container>
-
         </div>
     )
 }
