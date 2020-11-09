@@ -80,7 +80,7 @@ export default class imageslider extends React.Component<any, any, any> {
             animationIn='fadeIn'
             animationOut="fadeOut"
             durationOut="1000"
-            style={{ width: '100%', height: '100%'}}
+            style={{ width: '100%', height: '80%'}}
           >
                 <div className="carousel" style={{ backgroundPosition: 'center', backgroundImage: `url(${this.arr[this.state.COUNT].img})`, backgroundRepeat: 'no-repeat'}}>
                     <div className="w-full h-full flex justify-center items-center">

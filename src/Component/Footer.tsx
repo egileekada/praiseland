@@ -18,9 +18,7 @@ function footer(){
                         <img
                             alt=""
                             src= {require('../Image/logo.png')}
-                            width="50px"
-                            height="50px" 
-                            style={{marginRight: '10px', marginTop: '-5px'}}
+                            style={{marginRight: '10px', marginTop: '-5px', width: '50px', height:'50px'}}
                             />
                         <div style={{flexDirection: 'column', display:'flex', alignItems: 'center', marginLeft:'1px'}}>
                             <span className='font-Poppinsbold text-xl text-black' >Praise Land Parish</span>
@@ -41,7 +39,7 @@ function footer(){
                             See more
                         </Button></NavLink>
                     </Col>
-                    <Col  style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection:'column', marginTop: '10px'}}  xs={10} md={5} lg={3} className=' info'>
+                    <Col  style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection:'column', marginTop: '20px'}}  xs={10} md={5} lg={3} className=' info'>
                         <IoMdCompass size='50px' style={{ marginBottom:'20px'}} />
                         <p className='font-lato' >15 Ikecchi Chinda Street Eagle Island<br/>
                             Port Harcourt Rivers State Nigeria.</p>

@@ -24,7 +24,12 @@ function App() {
             <Route exact path="/department" component={Department} />    
             <Route exact path="/about" component={About} /> 
             <Route exact path="/share" component={Share} />  
-            <Route exact path="/admin" component={Adimn} />                             
+            <Route exact path="/admin" component={Adimn} />   
+            <Route exact path="/main" component={Adimn} />     
+            <Route exact path="/admin_gallery" component={Adimn} /> 
+            <Route exact path="/admin_corner" component={Adimn} /> 
+            <Route exact path="/admin_share" component={Adimn} />   
+            <Route exact path="/admin_event" component={Adimn} />                             
           </Switch>
         </Top>
       </Router>
