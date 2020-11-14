@@ -82,14 +82,14 @@ export default class imageslider extends React.Component<any, any, any> {
             durationOut="1000"
             style={{ width: '100%', height: '80%'}}
           >
-                <div className="carousel" style={{ backgroundPosition: 'center', backgroundImage: `url(${this.arr[this.state.COUNT].img})`, backgroundRepeat: 'no-repeat'}}>
+                <div className="hero" style={{ backgroundPosition: 'center', backgroundImage: `url(${this.arr[this.state.COUNT].img})`, backgroundRepeat: 'no-repeat'}}>
                     <div className="w-full h-full flex justify-center items-center">
                         
                         <Container fluid >
-                            <Row xs={12} md={12} style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <Row xs={12} md={12} style={{display: 'flex', justifyContent: 'center'}}>
                             <Col  xs={9} md={9} lg={7} id='slide' >
-                                <h1 style={{textShadow:'3px 3px #0700008a'}} className="font-bold font-Poppinsbold text-white items-center text-lg lg:text-4xl xl:text-4xl "  >{this.arr[this.state.COUNT].header}</h1>
-                                <Button className='font-bold font-Poppinsbold' href = "mailto: rccgpraiselandparishph@gmail.com" style={{position: 'absolute', bottom: '10px', left:'auto', right:'auto'}} variant="success">Contact Us</Button>
+                                <h1 style={{textShadow:'3px 3px #0700008a', marginTop:'10vh'}} className="font-bold font-Poppinsbold text-white items-center text-lg lg:text-4xl xl:text-4xl "  >{this.arr[this.state.COUNT].header}</h1>
+                                <Button className='font-bold font-Poppinsbold' href = "mailto: rccgpraiselandparishph@gmail.com" style={{ marginTop:'10vh' }} variant="success">Contact Us</Button>
                             </Col>
                         
                             <Col xs={7} md={7} lg={7} id='indicator' >
