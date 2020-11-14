@@ -45,8 +45,9 @@ function Body(){
                 <MdEventAvailable style={{width: '40px', height:'40px', marginTop:'20px'}} />
               </div>
               <div className='past_event'  > 
-                <h4 className='font-Poppinsbold text-xl lg:text-2xl' >July HolyGhost Service</h4>
-                <p className='font-lato'  style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
+                <h4 className='font-Poppinsbold text-xl lg:text-2xl' >November Holy ghost Service</h4>
+                <p className='font-lato'  style={{marginTop: '10px'}} >Theme: let there be light part 10<br/>
+A wonderful and spectacular holy ghost Service for the month of November where the  word was shared on "Dream</p>
               </div>
             </div>
           </Col>
@@ -56,8 +57,8 @@ function Body(){
                 <MdEventAvailable style={{width: '40px', height:'40px', marginTop:'20px'}} />
               </div>
               <div className='past_event' > 
-                <h4 className='font-Poppinsbold text-xl lg:text-2xl' >July HolyGhost Service</h4>
-                <p className='font-lato'  style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
+                <h4 className='font-Poppinsbold text-xl lg:text-2xl' >Heaven on Earth</h4>
+                <p className='font-lato'  style={{marginTop: '10px'}} >Which held on the the 25th of October 202, featuring ministration from our very own Eva praise, Prince first born, Royalty choir etc..</p>
               </div>
             </div>
           </Col>
@@ -67,8 +68,8 @@ function Body(){
                 <MdEventAvailable style={{width: '40px', height:'40px', marginTop:'20px'}} />
               </div>
               <div className='past_event'> 
-                <h4 className='font-Poppinsbold text-xl lg:text-2xl' >July HolyGhost Service</h4>
-                <p className='font-lato'  style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
+                <h4 className='font-Poppinsbold text-xl lg:text-2xl' >Helps weekend </h4>
+                <p className='font-lato'  style={{marginTop: '10px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
               </div>
             </div>
           </Col>
@@ -78,8 +79,8 @@ function Body(){
                 <MdEventAvailable style={{width: '40px', height:'40px', marginTop:'20px'}} />
               </div>
               <div className='past_event' > 
-                <h4 className='font-Poppinsbold text-xl lg:text-2xl' >July HolyGhost Service</h4>
-                <p className='font-lato'  style={{marginTop: '10px', marginLeft: '15px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
+                <h4 className='font-Poppinsbold text-xl lg:text-2xl' >Annual convention.</h4>
+                <p className='font-lato'  style={{marginTop: '10px'}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.</p>
               </div>
             </div>
           </Col>
@@ -168,7 +169,7 @@ function Body(){
 
       <div id='center' style={{width: '100%', height: '500px' ,  backgroundColor: 'blue' }}>
         <div id='center' style={{width: '100%', height:'400px', borderLeft:'2px solid white', borderBottom: '2px solid white' ,  borderRadius:'30px', margin: '30px', paddingLeft: '20px', paddingRight: '20px'}} >
-          <p className='font-lato' style={{fontSize:'20px', textAlign:'left', color: 'white'}} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, nam! Facere obcaecati illo quia quos libero? Quae amet autem a voluptas cum reiciendis.</p>
+          <p className='font-lato text-white font-bold text-lg lg:text-3xl xl:text-3xl' >Hebrews 13:8, KJV: "Jesus Christ the same yesterday, and to day, and for ever."</p>
         </div>
       </div>
  

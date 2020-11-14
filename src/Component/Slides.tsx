@@ -26,13 +26,18 @@ export default class imageslider extends React.Component<any, any, any> {
             body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.',
         },
         {
-            img: require('../Image/2.jpg'),
+            img: require('../Image/church2.jpeg'),
             header: 'Where We worship and experience an outflow of Gods Presence',
             body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.',
         },
         {
-            img: require('../Image/3.jpg'),
+            img: require('../Image/church3.jpeg'),
             header: 'We Share the word of God as it is without compromise or hesitation',
+            body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.'
+        },
+        {
+            img: require('../Image/church4.jpeg'),
+            header: 'A place of love, joy, praises and laughter.',
             body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.'
         }
     ];
@@ -86,11 +91,12 @@ export default class imageslider extends React.Component<any, any, any> {
                     <div className="w-full h-full flex justify-center items-center">
                         
                         <Container fluid >
-                            <Row xs={12} md={12} style={{display: 'flex', justifyContent: 'center'}}>
+                            <Row xs={12} md={12} style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                             <Col  xs={9} md={9} lg={7} id='slide' >
-                                <h1 style={{textShadow:'3px 3px #0700008a', marginTop:'10vh'}} className="font-bold font-Poppinsbold text-white items-center text-lg lg:text-4xl xl:text-4xl "  >{this.arr[this.state.COUNT].header}</h1>
-                                <Button className='font-bold font-Poppinsbold' href = "mailto: rccgpraiselandparishph@gmail.com" style={{ marginTop:'10vh' }} variant="success">Contact Us</Button>
+                                <h1 style={{textShadow:'3px 3px #0700008a', marginTop:'0vh'}} className="font-bold font-Poppinsbold text-white items-center text-lg lg:text-5xl xl:text-4xl "  >{this.arr[this.state.COUNT].header}</h1>
                             </Col>
+
+                            <Button className='font-bold font-Poppinsbold button_position' href = "mailto: rccgpraiselandparishph@gmail.com" variant="success">Contact Us</Button>
                         
                             <Col xs={7} md={7} lg={7} id='indicator' >
                                 <div className="flex carousel-indicators " style={{ display:'flex', justifyContent:'center', alignItems:'center' }}> 

@@ -1,15 +1,14 @@
 import React from 'react';
 import YouTube from 'react-youtube';
 import '../styles.css';
-const BASE_EMBED_URL = 'I6DSRI98GpU';
- 
+const BASE_EMBED_URL = 'Eq-tkbILPsU';
 class Youtube extends React.Component {
     _onReady(event: { target: { pauseVideo: () => void; }; }) {
         event.target.pauseVideo();
       }
   render() {
     const opts = {
-      height: '450',
+      height: '500',
       width: '100%',
     }
     

@@ -16,8 +16,14 @@
   background-color: #0700008a;
   
 }
+.button_position{
+  position: absolute;
+  left: auto;
+  right: auto;
+  top: 60vh;
+}
 #slide{
-  height: 520px;
+  /* height: 520px; */
   background-color : transparent;
   display: flex;
   justify-content: center;
@@ -26,9 +32,9 @@
   flex-direction: column;
 }
 #indicator{
-    /* height: 50px; */
+    position: absolute;
     background-color : transparent;
-    margin-top: 40px;
+    top: 85vh;
 }
 @media (max-width: 988px) {
     .hero{
@@ -46,5 +52,10 @@
     #slide{
       height: 300px ; 
     }
-  
+    #indicator{
+      top: 65vh;
+    }
+    .button_position{
+      top: 50vh;
+    }
 }

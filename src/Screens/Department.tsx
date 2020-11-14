@@ -57,7 +57,7 @@ class Department extends React.Component<any, any, any> {
             },
             {
                 index: 2,
-                img: require('../Image/2.jpg'),
+                img: require('../Image/santi.jpeg'),
                 depname: 'Sanitation',
                 name: 'Bro. Oto.',
                 description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusantium nihil asperiores odio vitae. Nihil, odit error! Quis commodi fuga recusandae. Voluptatum optio delectus exercitationem, ullam officia ut eligendi recusandae.',
@@ -65,7 +65,7 @@ class Department extends React.Component<any, any, any> {
             },
             {
                 index: 3,
-                img: require('../Image/3.jpg'),
+                img: require('../Image/choir1.jpeg'),
                 depname: 'Chior',
                 name: 'Bro. Franklin Firstborn.',
                 description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusantium nihil asperiores odio vitae. Nihil, odit error! Quis commodi fuga recusandae. Voluptatum optio delectus exercitationem, ullam officia ut eligendi recusandae.',
@@ -73,7 +73,7 @@ class Department extends React.Component<any, any, any> {
             },
             {
                 index: 4,
-                img: require('../Image/4.jpg'),
+                img: require('../Image/Usher.jpeg'),
                 depname: 'Ushering',
                 name: "Dcn's. Rose Okowchi.",
                 description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusantium nihil asperiores odio vitae. Nihil, odit error! Quis commodi fuga recusandae. Voluptatum optio delectus exercitationem, ullam officia ut eligendi recusandae.',
@@ -161,7 +161,7 @@ class Department extends React.Component<any, any, any> {
             },
             {
                 index: 15,
-                img: require('../Image/3.jpg'),
+                img: require('../Image/ICT.jpeg'),
                 depname: 'ICT',
                 name: 'Dcn. IDEZI Emmanuel',
                 description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusantium nihil asperiores odio vitae. Nihil, odit error! Quis commodi fuga recusandae. Voluptatum optio delectus exercitationem, ullam officia ut eligendi recusandae.',
