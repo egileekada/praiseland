@@ -24,8 +24,8 @@ function PastorCorner() {
                     <Row xs={12} md={5} lg={12} style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop:'10px'}} >
                         <Col xs={11} md={5} lg={5} className ='corner' style={{backgroundImage:`url(${img})`, backgroundPosition:'center', backgroundRepeat:'no-repeat', borderRadius:'10px'}} ></Col>
                         <Col xs={12} md={5} lg={5} className='cornertext' style={{flexDirection: "column"}} >
-                            <div style={{ backgroundColor:'blanchedalmond', borderRadius:'10px'}} className='flow'>
-                                <div id='center'  style={{ backgroundColor:'blanchedalmond'}}>
+                            <div style={{ backgroundColor:'white', borderRadius:'10px', border:'1px solid gray'}} className='flow'>
+                                <div id='center'  style={{ backgroundColor:'white'}}>
                                     <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis libero dolore quae sit assumenda voluptas debitis officiis ipsa, temporibus, qui omnis eius ex quia officia. Nisi animi voluptatum quas tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptatum expedita consequuntur facere modi hic illum, necessitatibus ducimus deleniti perspiciatis ad, cum, dolore quisquam eum praesentium mollitia harum quam esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis libero dolore quae sit assumenda voluptas debitis officiis ipsa, temporibus, qui omnis eius ex quia officia. Nisi animi voluptatum quas tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptatum expedita consequuntur facere modi hic illum, necessitatibus ducimus deleniti perspiciatis ad, cum, dolore quisquam eum praesentium mollitia harum quam esse!</p>  
                                 </div>
                             </div>

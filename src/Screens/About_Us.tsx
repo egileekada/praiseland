@@ -40,7 +40,7 @@ function About_Us (){
                         </Row>
                     </Col>
                     <Col id='center' xs={11} md={5} lg={5} style={{flexDirection:'column', marginBottom:'20px', marginTop: '55px'}}>
-                        <div style={{backgroundColor: 'blanchedalmond', marginTop:'20px', padding: '5px'}}>
+                        <div style={{backgroundColor: 'white', marginTop:'20px', padding: '5px'}}>
                             <p className='font-lato' >The Redeemed Christian Church of God (RCCG), Praise Land Parish was planted in April 2001.<br/>
                                 Praise Land is located in plot 159, Redeemed Road Eagle Island Layout, Port Harcourt. Over time, the parish has grown from being a parish to area headquarters and then to zonal headquarters and currently a stand-alone Mega-Parish headed by an Assistant Pastor in charge of Rivers Province 9.<br/>
                                 Praise Land Parish is under Rivers Province 9 in Region 5<br/>
