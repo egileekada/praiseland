@@ -11,7 +11,7 @@ import Col from 'react-bootstrap/Col'
 import ImageGrid from '../Gallery_Component/Admin_Gallery'
 import UploadForm from '../Gallery_Component/UploadForm';
 import Modal from 'react-bootstrap/Modal'
-import { projectFirestore } from '../firebase/config';
+// import { projectFirestore } from '../firebase/config';
 
 
 export default function Admin() {
