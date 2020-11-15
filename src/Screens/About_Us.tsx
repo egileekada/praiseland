@@ -1,9 +1,6 @@
 import React from 'react'
 
-import image from '../Image/4.jpg'
-// import abt1 from '../Image/1.jpg'
-// import abt2 from '../Image/2.jpg'
-// import abt3 from '../Image/3.jpg'
+import image from '../Image/church2.jpeg'
 import Navigate from '../Component/Navigation'
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container'
@@ -18,8 +15,8 @@ function About_Us (){
                 <Navigate />
             </Navbar> 
             <div className='image_container' style={{ backgroundImage: `url(${image})` }}>
-                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', width:'100%'}}>
-                    <h1 className=' font-Poppinsbold text-white items-center text-xl lg:text-4xl xl:text-4xl'  style={{textShadow:'3px 3px #0700008a'}} >About RCCG Praise Land Parish </h1>
+                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', position:'absolute', width:'100%'}}>
+                    <h1 className='className="font-lato text-white items-center text-lg lg:text-5xl xl:text-5xl' >About RCCG Praise Land Parish </h1>
                 </div>
             </div>
             <Container fluid style={{display: 'flex', justifyContent:'center', alignItems:'center', flexDirection:'column'}}>

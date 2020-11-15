@@ -1,6 +1,6 @@
 import React from 'react'
 
-import image from '../Image/2.jpg'
+import image from '../Image/sanitation.jpeg'
 import Navigate from '../Component/Navigation'
 import Navbar from 'react-bootstrap/Navbar';
 import './Style/Screens.css';
@@ -198,7 +198,9 @@ class Department extends React.Component<any, any, any> {
                     <Navigate />
                 </Navbar> 
                     <div className='image_container' style={{ backgroundImage:`url(${image})` }}>
-                        <h1 className='font-Poppinsbold text-white items-center text-xl lg:text-4xl xl:text-4xl' style={{margin:'40px', textAlign:'center', textShadow:'3px 3px #0700008a'}} >Departments Of RCCG Praise Land Parish Eagle Island</h1>
+                        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', position:'absolute', width:'100%'}}>
+                            <h1 className='font-lato text-white items-center text-lg lg:text-5xl xl:text-5xl' >Departments Of RCCG Praise Land Parish</h1>
+                        </div>
                     </div>
                 </header>
                 

@@ -22,7 +22,7 @@ export default class imageslider extends React.Component<any, any, any> {
     arr = [
         {
             img: require('../Image/church.jpeg'),
-            header: 'Welcome to R.C.C.G Praise Land Parish Eagle Island',
+            header: 'Welcome to R.C.C.G Praise Land Parish Eagle Island Port Harcourt',
             body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.',
         },
         {
@@ -37,7 +37,7 @@ export default class imageslider extends React.Component<any, any, any> {
         },
         {
             img: require('../Image/church4.jpeg'),
-            header: 'A place of love, joy, praises and laughter.',
+            header: 'A Place Of Love, Joy, Praises & Laughter.',
             body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis dolorum nisi et possimus? Expedita atque rerum saepe, natus exercitationem maxime provident perspiciatis, architecto quae dignissimos similique, optio reprehenderit. Non.'
         }
     ];
@@ -92,8 +92,8 @@ export default class imageslider extends React.Component<any, any, any> {
                         
                         <Container fluid >
                             <Row xs={12} md={12} style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                            <Col  xs={9} md={9} lg={7} id='slide' >
-                                <h1 style={{textShadow:'3px 3px #0700008a', marginTop:'0vh'}} className="font-bold font-Poppinsbold text-white items-center text-lg lg:text-5xl xl:text-4xl "  >{this.arr[this.state.COUNT].header}</h1>
+                            <Col  xs={9} md={9} lg={9} id='slide' >
+                                <h1 className="font-lato text-white items-center text-lg lg:text-5xl xl:text-5xl tracking-wide"  >{this.arr[this.state.COUNT].header}</h1>
                             </Col>
 
                             <Button className='font-bold font-Poppinsbold button_position' href = "mailto: rccgpraiselandparishph@gmail.com" variant="success">Contact Us</Button>
