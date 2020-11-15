@@ -93,7 +93,7 @@ export default class imageslider extends React.Component<any, any, any> {
                         <Container fluid >
                             <Row xs={12} md={12} style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                             <Col  xs={9} md={9} lg={9} id='slide' >
-                                <h1 className="font-lato text-white items-center text-lg lg:text-5xl xl:text-5xl tracking-wide"  >{this.arr[this.state.COUNT].header}</h1>
+                                <h1 className="font-lato text-white items-center text-lg lg:text-5xl xl:text-5xl tracking-wide text_position"  >{this.arr[this.state.COUNT].header}</h1>
                             </Col>
 
                             <Button className='font-bold font-Poppinsbold button_position' href = "mailto: rccgpraiselandparishph@gmail.com" variant="success">Contact Us</Button>
